@@ -3,7 +3,7 @@
     "name": "Popover",
     "source": "Radix UI",
     "ver": "1.0.0",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "type": "web"
   },
   "sem": {
@@ -15,13 +15,13 @@
   "props": [
     {
       "name": "children",
-      "type": "string",
+      "type": "component",
       "required": false,
       "default": null,
       "allowedValues": null,
       "description": "",
-      "uiControl": "text_input",
-      "category": "behavior",
+      "uiControl": "component_picker",
+      "category": "content",
       "constraints": null
     },
     {
@@ -43,17 +43,17 @@
       "allowedValues": null,
       "description": "",
       "uiControl": "toggle",
-      "category": "behavior",
+      "category": "content",
       "constraints": null
     },
     {
       "name": "onOpenChange",
-      "type": "string",
+      "type": "function",
       "required": false,
       "default": null,
       "allowedValues": null,
       "description": "",
-      "uiControl": "text_input",
+      "uiControl": "code_input",
       "category": "behavior",
       "constraints": null
     },
@@ -81,6 +81,39 @@
     },
     {
       "name": "forceMount",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "trapFocus",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "onOpenAutoFocus",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "onCloseAutoFocus",
       "type": "string",
       "required": false,
       "default": null,

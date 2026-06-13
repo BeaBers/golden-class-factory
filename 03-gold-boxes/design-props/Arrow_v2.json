@@ -3,7 +3,7 @@
     "name": "Arrow",
     "source": "Konva.js",
     "ver": "10.3.0",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "type": "design"
   },
   "props": [
@@ -101,10 +101,10 @@
       "allowedValues": null,
       "description": "",
       "uiControl": "text_input",
-      "category": "behavior",
+      "category": "content",
       "constraints": null,
       "css": null,
-      "cat": "behavior"
+      "cat": "content"
     },
     {
       "name": "name",
@@ -114,10 +114,10 @@
       "allowedValues": null,
       "description": "",
       "uiControl": "text_input",
-      "category": "behavior",
+      "category": "content",
       "constraints": null,
       "css": null,
-      "cat": "behavior"
+      "cat": "content"
     },
     {
       "name": "opacity",
@@ -310,12 +310,12 @@
     },
     {
       "name": "dragBoundFunc",
-      "type": "string",
+      "type": "function",
       "required": false,
       "default": null,
       "allowedValues": null,
       "description": "",
-      "uiControl": "text_input",
+      "uiControl": "code_input",
       "category": "interaction",
       "constraints": null,
       "css": null,
@@ -618,7 +618,7 @@
     },
     {
       "name": "fillLinearGradientColorStops",
-      "type": "string",
+      "type": "array",
       "required": false,
       "default": null,
       "allowedValues": null,
@@ -747,7 +747,7 @@
     },
     {
       "name": "fillRadialGradientColorStops",
-      "type": "string",
+      "type": "array",
       "required": false,
       "default": null,
       "allowedValues": null,
@@ -933,12 +933,12 @@
     },
     {
       "name": "sceneFunc",
-      "type": "string",
+      "type": "function",
       "required": false,
       "default": null,
       "allowedValues": null,
       "description": "",
-      "uiControl": "text_input",
+      "uiControl": "code_input",
       "category": "behavior",
       "constraints": null,
       "css": null,
@@ -946,12 +946,12 @@
     },
     {
       "name": "hitFunc",
-      "type": "string",
+      "type": "function",
       "required": false,
       "default": null,
       "allowedValues": null,
       "description": "",
-      "uiControl": "text_input",
+      "uiControl": "code_input",
       "category": "interaction",
       "constraints": null,
       "css": null,
@@ -1122,6 +1122,189 @@
       "constraints": null,
       "css": null,
       "cat": "state"
+    },
+    {
+      "name": "clearBeforeDraw",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "toggle",
+      "category": "behavior",
+      "constraints": null,
+      "css": null,
+      "cat": "behavior"
+    },
+    {
+      "name": "clipFunc",
+      "type": "function",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "code_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null,
+      "cat": "behavior"
+    },
+    {
+      "name": "clipX",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "behavior",
+      "constraints": {
+        "min": 0
+      },
+      "css": null,
+      "cat": "behavior"
+    },
+    {
+      "name": "clipY",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "behavior",
+      "constraints": {
+        "min": 0
+      },
+      "css": null,
+      "cat": "behavior"
+    },
+    {
+      "name": "clipWidth",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "content",
+      "constraints": {
+        "min": 0
+      },
+      "css": null,
+      "cat": "content"
+    },
+    {
+      "name": "clipHeight",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "behavior",
+      "constraints": {
+        "min": 0
+      },
+      "css": null,
+      "cat": "behavior"
+    },
+    {
+      "name": "points",
+      "type": "array",
+      "required": true,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null,
+      "cat": "behavior"
+    },
+    {
+      "name": "tension",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "behavior",
+      "constraints": {
+        "min": 0
+      },
+      "css": null,
+      "cat": "behavior"
+    },
+    {
+      "name": "closed",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "toggle",
+      "category": "behavior",
+      "constraints": null,
+      "css": null,
+      "cat": "behavior"
+    },
+    {
+      "name": "pointerLength",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "interaction",
+      "constraints": {
+        "min": 0
+      },
+      "css": null,
+      "cat": "interaction"
+    },
+    {
+      "name": "pointerWidth",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "interaction",
+      "constraints": {
+        "min": 0
+      },
+      "css": null,
+      "cat": "interaction"
+    },
+    {
+      "name": "pointerAtBeginning",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "toggle",
+      "category": "interaction",
+      "constraints": null,
+      "css": null,
+      "cat": "interaction"
+    },
+    {
+      "name": "pointerAtEnding",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "toggle",
+      "category": "interaction",
+      "constraints": null,
+      "css": null,
+      "cat": "interaction"
     }
   ],
   "events": [

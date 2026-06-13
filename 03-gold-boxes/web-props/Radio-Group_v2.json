@@ -3,7 +3,7 @@
     "name": "Radio-Group",
     "source": "Radix UI",
     "ver": "1.0.0",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "type": "web"
   },
   "sem": {
@@ -14,9 +14,20 @@
   },
   "props": [
     {
-      "name": "value",
+      "name": "name",
       "type": "string",
-      "required": true,
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null
+    },
+    {
+      "name": "required",
+      "type": "string",
+      "required": false,
       "default": null,
       "allowedValues": null,
       "description": "",
@@ -26,17 +37,17 @@
     },
     {
       "name": "disabled",
-      "type": "boolean",
+      "type": "string",
       "required": false,
       "default": null,
       "allowedValues": null,
       "description": "",
-      "uiControl": "toggle",
+      "uiControl": "text_input",
       "category": "state",
       "constraints": null
     },
     {
-      "name": "children",
+      "name": "dir",
       "type": "string",
       "required": false,
       "default": null,
@@ -44,6 +55,72 @@
       "description": "",
       "uiControl": "text_input",
       "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "orientation",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "loop",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "defaultValue",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null
+    },
+    {
+      "name": "value",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null
+    },
+    {
+      "name": "onValueChange",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null
+    },
+    {
+      "name": "children",
+      "type": "component",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "component_picker",
+      "category": "content",
       "constraints": null
     }
   ],

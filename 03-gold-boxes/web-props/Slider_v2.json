@@ -3,7 +3,7 @@
     "name": "Slider",
     "source": "Radix UI",
     "ver": "1.0.0",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "type": "web"
   },
   "sem": {
@@ -14,31 +14,149 @@
   },
   "props": [
     {
-      "name": "min",
-      "type": "number",
-      "required": true,
+      "name": "name",
+      "type": "string",
+      "required": false,
       "default": null,
       "allowedValues": null,
       "description": "",
-      "uiControl": "slider",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null
+    },
+    {
+      "name": "disabled",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "toggle",
+      "category": "state",
+      "constraints": null
+    },
+    {
+      "name": "orientation",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
     },
     {
+      "name": "dir",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "min",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "dimension",
+      "constraints": {
+        "min": 0
+      }
+    },
+    {
       "name": "max",
       "type": "number",
-      "required": true,
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "dimension",
+      "constraints": {
+        "min": 0
+      }
+    },
+    {
+      "name": "step",
+      "type": "number",
+      "required": false,
       "default": null,
       "allowedValues": null,
       "description": "",
       "uiControl": "slider",
       "category": "behavior",
+      "constraints": {
+        "min": 0
+      }
+    },
+    {
+      "name": "minStepsBetweenThumbs",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "behavior",
+      "constraints": {
+        "min": 0
+      }
+    },
+    {
+      "name": "value",
+      "type": "array",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null
+    },
+    {
+      "name": "defaultValue",
+      "type": "array",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null
+    },
+    {
+      "name": "onValueChange",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null
+    },
+    {
+      "name": "onValueCommit",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "content",
       "constraints": null
     },
     {
       "name": "inverted",
       "type": "boolean",
-      "required": true,
+      "required": false,
       "default": null,
       "allowedValues": null,
       "description": "",
@@ -47,73 +165,7 @@
       "constraints": null
     },
     {
-      "name": "onSlideStart",
-      "type": "string",
-      "required": false,
-      "default": null,
-      "allowedValues": null,
-      "description": "",
-      "uiControl": "text_input",
-      "category": "behavior",
-      "constraints": null
-    },
-    {
-      "name": "onSlideMove",
-      "type": "string",
-      "required": false,
-      "default": null,
-      "allowedValues": null,
-      "description": "",
-      "uiControl": "text_input",
-      "category": "behavior",
-      "constraints": null
-    },
-    {
-      "name": "onSlideEnd",
-      "type": "string",
-      "required": false,
-      "default": null,
-      "allowedValues": null,
-      "description": "",
-      "uiControl": "text_input",
-      "category": "behavior",
-      "constraints": null
-    },
-    {
-      "name": "onHomeKeyDown",
-      "type": "string",
-      "required": true,
-      "default": null,
-      "allowedValues": null,
-      "description": "",
-      "uiControl": "text_input",
-      "category": "behavior",
-      "constraints": null
-    },
-    {
-      "name": "onEndKeyDown",
-      "type": "string",
-      "required": true,
-      "default": null,
-      "allowedValues": null,
-      "description": "",
-      "uiControl": "text_input",
-      "category": "behavior",
-      "constraints": null
-    },
-    {
-      "name": "onStepKeyDown",
-      "type": "string",
-      "required": true,
-      "default": null,
-      "allowedValues": null,
-      "description": "",
-      "uiControl": "text_input",
-      "category": "behavior",
-      "constraints": null
-    },
-    {
-      "name": "name",
+      "name": "form",
       "type": "string",
       "required": false,
       "default": null,
@@ -125,13 +177,13 @@
     },
     {
       "name": "children",
-      "type": "string",
+      "type": "component",
       "required": false,
       "default": null,
       "allowedValues": null,
       "description": "",
-      "uiControl": "text_input",
-      "category": "behavior",
+      "uiControl": "component_picker",
+      "category": "content",
       "constraints": null
     }
   ],

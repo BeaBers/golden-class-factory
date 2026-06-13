@@ -3,7 +3,7 @@
     "name": "Toast",
     "source": "Radix UI",
     "ver": "1.0.0",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "type": "web"
   },
   "sem": {
@@ -15,13 +15,13 @@
   "props": [
     {
       "name": "children",
-      "type": "string",
+      "type": "component",
       "required": false,
       "default": null,
       "allowedValues": null,
       "description": "",
-      "uiControl": "text_input",
-      "category": "behavior",
+      "uiControl": "component_picker",
+      "category": "content",
       "constraints": null
     },
     {
@@ -32,7 +32,7 @@
       "allowedValues": null,
       "description": "",
       "uiControl": "text_input",
-      "category": "behavior",
+      "category": "content",
       "constraints": null
     },
     {
@@ -44,7 +44,9 @@
       "description": "",
       "uiControl": "slider",
       "category": "behavior",
-      "constraints": null
+      "constraints": {
+        "min": 0
+      }
     },
     {
       "name": "swipeDirection",
@@ -66,12 +68,182 @@
       "description": "",
       "uiControl": "slider",
       "category": "behavior",
-      "constraints": null
+      "constraints": {
+        "min": 0
+      }
     },
     {
       "name": "announcerContainer",
       "type": "string",
       "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "hotkey",
+      "type": "array",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null
+    },
+    {
+      "name": "onFocusFromOutsideViewport",
+      "type": "string",
+      "required": true,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null
+    },
+    {
+      "name": "open",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "toggle",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "defaultOpen",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "toggle",
+      "category": "content",
+      "constraints": null
+    },
+    {
+      "name": "onOpenChange",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "forceMount",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "type",
+      "type": "enum",
+      "required": false,
+      "default": null,
+      "allowedValues": [
+        "foreground",
+        "background"
+      ],
+      "description": "",
+      "uiControl": "select",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "onEscapeKeyDown",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null
+    },
+    {
+      "name": "onPause",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "onResume",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "onSwipeStart",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "onSwipeMove",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "onSwipeCancel",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "onSwipeEnd",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "altText",
+      "type": "string",
+      "required": true,
       "default": null,
       "allowedValues": null,
       "description": "",

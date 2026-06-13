@@ -3,7 +3,7 @@
     "name": "Tabs",
     "source": "Radix UI",
     "ver": "1.0.0",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "type": "web"
   },
   "sem": {
@@ -12,7 +12,99 @@
     "children": true,
     "role": "tabs"
   },
-  "props": [],
+  "props": [
+    {
+      "name": "value",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "The value for the selected tab, if controlled */",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null
+    },
+    {
+      "name": "defaultValue",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "The value of the tab to select by default, if uncontrolled */",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null
+    },
+    {
+      "name": "onValueChange",
+      "type": "function",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "A function called when a new tab is selected */",
+      "uiControl": "code_input",
+      "category": "content",
+      "constraints": null
+    },
+    {
+      "name": "orientation",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "dir",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "activationMode",
+      "type": "enum",
+      "required": false,
+      "default": "automatic",
+      "allowedValues": [
+        "automatic",
+        "manual"
+      ],
+      "description": "Whether a tab is activated automatically or manually. */",
+      "uiControl": "select",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "loop",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "forceMount",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    }
+  ],
   "events": [
     {
       "name": "onValueChange",

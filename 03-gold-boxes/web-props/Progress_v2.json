@@ -3,7 +3,7 @@
     "name": "Progress",
     "source": "Radix UI",
     "ver": "1.0.0",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "type": "web"
   },
   "sem": {
@@ -12,7 +12,43 @@
     "children": true,
     "role": "progress"
   },
-  "props": [],
+  "props": [
+    {
+      "name": "value",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null
+    },
+    {
+      "name": "max",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "dimension",
+      "constraints": {
+        "min": 0
+      }
+    },
+    {
+      "name": "getValueLabel",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null
+    }
+  ],
   "events": [
     {
       "name": "onValueChange",

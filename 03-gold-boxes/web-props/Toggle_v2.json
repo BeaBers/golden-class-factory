@@ -3,7 +3,7 @@
     "name": "Toggle",
     "source": "Radix UI",
     "ver": "1.0.0",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "type": "web"
   },
   "sem": {
@@ -12,13 +12,54 @@
     "children": true,
     "role": "toggle"
   },
-  "props": [],
+  "props": [
+    {
+      "name": "pressed",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "toggle",
+      "category": "state",
+      "constraints": null
+    },
+    {
+      "name": "defaultPressed",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "toggle",
+      "category": "state",
+      "constraints": null
+    },
+    {
+      "name": "onPressedChange",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "state",
+      "constraints": null
+    }
+  ],
   "events": [
     {
       "name": "onValueChange",
       "desc": "Value changes",
       "params": [
         "string|boolean"
+      ]
+    },
+    {
+      "name": "onPressedChange",
+      "desc": "Pressed state changes",
+      "params": [
+        "boolean"
       ]
     },
     {

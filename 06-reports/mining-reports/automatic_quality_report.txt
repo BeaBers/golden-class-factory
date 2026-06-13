@@ -1,0 +1,135 @@
+============================================================
+FULL MINING - QUALITY REPORT
+============================================================
+Date: 2026-06-14 01:27:15
+
+Web mine: 18 files
+Design mine: 15 files
+
+QUALITY VALIDATION RESULTS:
+------------------------------------------------------------
+
+  Accordion_v2.json:
+    WARNING: file size low (3114 bytes, expected >5000)
+    WARNING: 8/8 props have no description
+
+  Alert-Dialog_v2.json:
+    WARNING: file size low (1000 bytes, expected >5000)
+    CRITICAL: no props extracted
+
+  Arc_v2.json:
+    WARNING: 90/90 props have no description
+
+  Arrow_v2.json:
+    WARNING: 93/93 props have no description
+
+  Avatar_v2.json:
+    WARNING: file size low (1323 bytes, expected >5000)
+    WARNING: only 2 props
+    WARNING: 2/2 props have no description
+
+  Checkbox_v2.json:
+    WARNING: file size low (3667 bytes, expected >5000)
+    WARNING: 10/10 props have no description
+
+  Circle_v2.json:
+    WARNING: 87/87 props have no description
+
+  Collapsible_v2.json:
+    WARNING: file size low (2345 bytes, expected >5000)
+    WARNING: 6/6 props have no description
+
+  Dialog_v2.json:
+    WARNING: file size low (3658 bytes, expected >5000)
+    WARNING: 10/10 props have no description
+
+  Ellipse_v2.json:
+    WARNING: 88/88 props have no description
+
+  Hover-Card_v2.json:
+    WARNING: file size low (4162 bytes, expected >5000)
+    WARNING: 12/12 props have no description
+
+  Image_v2.json:
+    WARNING: 89/89 props have no description
+
+  Label_v2.json:
+    WARNING: 86/86 props have no description
+
+  Line_v2.json:
+    WARNING: 89/89 props have no description
+
+  Path_v2.json:
+    WARNING: 87/87 props have no description
+
+  Popover_v2.json:
+    WARNING: file size low (3662 bytes, expected >5000)
+    WARNING: 10/10 props have no description
+
+  Progress_v2.json:
+    WARNING: file size low (1707 bytes, expected >5000)
+    WARNING: 3/3 props have no description
+
+  Radio-Group_v2.json:
+    WARNING: file size low (3677 bytes, expected >5000)
+    WARNING: 10/10 props have no description
+
+  Rect_v2.json:
+    WARNING: 87/87 props have no description
+
+  RegularPolygon_v2.json:
+    WARNING: 89/89 props have no description
+
+  Ring_v2.json:
+    WARNING: 88/88 props have no description
+
+  Select_v2.json:
+    WARNING: 24/24 props have no description
+
+  Slider_v2.json:
+    WARNING: 15/15 props have no description
+
+  Star_v2.json:
+    WARNING: 89/89 props have no description
+
+  Switch_v2.json:
+    WARNING: file size low (3526 bytes, expected >5000)
+    WARNING: 9/9 props have no description
+
+  Tabs_v2.json:
+    WARNING: file size low (3453 bytes, expected >5000)
+    INFO: 4/8 props without description
+
+  TextPath_v2.json:
+    WARNING: 99/99 props have no description
+
+  Text_v2.json:
+    WARNING: 101/101 props have no description
+
+  Toast_v2.json:
+    WARNING: 21/21 props have no description
+
+  Toggle-Group_v2.json:
+    WARNING: file size low (3539 bytes, expected >5000)
+    WARNING: 9/9 props have no description
+
+  Toggle_v2.json:
+    WARNING: file size low (1951 bytes, expected >5000)
+    WARNING: 3/3 props have no description
+
+  Tooltip_v2.json:
+    WARNING: file size low (4003 bytes, expected >5000)
+    WARNING: 11/11 props have no description
+
+  Wedge_v2.json:
+    WARNING: 89/89 props have no description
+
+============================================================
+SUMMARY:
+  Total files: 33
+  Clean files: 0
+  Files with issues: 33
+  Critical issues: 1
+  Warnings: 47
+  Quality score: 0.0%
+============================================================

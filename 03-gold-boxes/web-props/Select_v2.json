@@ -3,7 +3,7 @@
     "name": "Select",
     "source": "Radix UI",
     "ver": "1.0.0",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "type": "web"
   },
   "sem": {
@@ -21,7 +21,7 @@
       "allowedValues": null,
       "description": "",
       "uiControl": "text_input",
-      "category": "behavior",
+      "category": "content",
       "constraints": null
     },
     {
@@ -32,29 +32,29 @@
       "allowedValues": null,
       "description": "",
       "uiControl": "text_input",
-      "category": "behavior",
+      "category": "content",
       "constraints": null
     },
     {
       "name": "onValueChange",
-      "type": "string",
+      "type": "function",
       "required": true,
       "default": null,
       "allowedValues": null,
       "description": "",
-      "uiControl": "text_input",
-      "category": "behavior",
+      "uiControl": "code_input",
+      "category": "content",
       "constraints": null
     },
     {
       "name": "children",
-      "type": "string",
+      "type": "component",
       "required": false,
       "default": null,
       "allowedValues": null,
       "description": "",
-      "uiControl": "text_input",
-      "category": "behavior",
+      "uiControl": "component_picker",
+      "category": "content",
       "constraints": null
     },
     {
@@ -76,7 +76,7 @@
       "allowedValues": null,
       "description": "",
       "uiControl": "toggle",
-      "category": "behavior",
+      "category": "content",
       "constraints": null
     },
     {
@@ -109,7 +109,7 @@
       "allowedValues": null,
       "description": "",
       "uiControl": "text_input",
-      "category": "behavior",
+      "category": "content",
       "constraints": null
     },
     {
@@ -157,6 +157,17 @@
       "constraints": null
     },
     {
+      "name": "placeholder",
+      "type": "component",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "component_picker",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
       "name": "container",
       "type": "string",
       "required": false,
@@ -179,9 +190,89 @@
       "constraints": null
     },
     {
-      "name": "onPlaced",
+      "name": "fragment",
       "type": "string",
       "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "onCloseAutoFocus",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "onEscapeKeyDown",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null
+    },
+    {
+      "name": "onPointerDownOutside",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "interaction",
+      "constraints": null
+    },
+    {
+      "name": "position",
+      "type": "enum",
+      "required": false,
+      "default": null,
+      "allowedValues": [
+        "item-aligned",
+        "popper"
+      ],
+      "description": "",
+      "uiControl": "select",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "nonce",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "textValue",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null
+    },
+    {
+      "name": "onAutoScroll",
+      "type": "string",
+      "required": true,
       "default": null,
       "allowedValues": null,
       "description": "",

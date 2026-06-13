@@ -3,7 +3,7 @@
     "name": "Avatar",
     "source": "Radix UI",
     "ver": "1.0.0",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "type": "web"
   },
   "sem": {
@@ -12,7 +12,32 @@
     "children": true,
     "role": "avatar"
   },
-  "props": [],
+  "props": [
+    {
+      "name": "onLoadingStatusChange",
+      "type": "function",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "code_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "delayMs",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "behavior",
+      "constraints": {
+        "min": 0
+      }
+    }
+  ],
   "events": [
     {
       "name": "onClick",

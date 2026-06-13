@@ -3,7 +3,7 @@
     "name": "Switch",
     "source": "Radix UI",
     "ver": "1.0.0",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "type": "web"
   },
   "sem": {
@@ -65,7 +65,7 @@
       "allowedValues": null,
       "description": "",
       "uiControl": "text_input",
-      "category": "behavior",
+      "category": "content",
       "constraints": null
     },
     {
@@ -98,18 +98,18 @@
       "allowedValues": null,
       "description": "",
       "uiControl": "text_input",
-      "category": "behavior",
+      "category": "content",
       "constraints": null
     },
     {
       "name": "children",
-      "type": "string",
+      "type": "component",
       "required": false,
       "default": null,
       "allowedValues": null,
       "description": "",
-      "uiControl": "text_input",
-      "category": "behavior",
+      "uiControl": "component_picker",
+      "category": "content",
       "constraints": null
     }
   ],
@@ -119,6 +119,13 @@
       "desc": "Value changes",
       "params": [
         "string|boolean"
+      ]
+    },
+    {
+      "name": "onPressedChange",
+      "desc": "Pressed state changes",
+      "params": [
+        "boolean"
       ]
     },
     {
