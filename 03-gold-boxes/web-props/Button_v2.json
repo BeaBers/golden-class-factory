@@ -1,0 +1,261 @@
+﻿{
+  "metadata": {
+    "elementName": "Button",
+    "source": "Radix UI Primitive",
+    "version": "1.0.0",
+    "extractedAt": "2026-06-13",
+    "category": "web"
+  },
+  "semantic": {
+    "tag": "button",
+    "isContainer": false,
+    "acceptsChildren": true,
+    "role": "button"
+  },
+  "props": [
+    {
+      "name": "disabled",
+      "type": "boolean",
+      "required": false,
+      "default": false,
+      "allowedValues": null,
+      "description": "Disables the button",
+      "uiControl": "toggle",
+      "category": "state",
+      "constraints": null
+    },
+    {
+      "name": "type",
+      "type": "enum",
+      "required": false,
+      "default": "submit",
+      "allowedValues": [
+        "button",
+        "submit",
+        "reset"
+      ],
+      "description": "The type of the button",
+      "uiControl": "select",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Name of the button, submitted as part of form data",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "value",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Value of the button, submitted as part of form data",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "autoFocus",
+      "type": "boolean",
+      "required": false,
+      "default": false,
+      "allowedValues": null,
+      "description": "Automatically focus the button on page load",
+      "uiControl": "toggle",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "form",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Associate the button with a form element",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "formAction",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "URL that processes the form submission",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "formEncType",
+      "type": "enum",
+      "required": false,
+      "default": "application/x-www-form-urlencoded",
+      "allowedValues": [
+        "application/x-www-form-urlencoded",
+        "multipart/form-data",
+        "text/plain"
+      ],
+      "description": "How the form data should be encoded",
+      "uiControl": "select",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "formMethod",
+      "type": "enum",
+      "required": false,
+      "default": "get",
+      "allowedValues": [
+        "get",
+        "post"
+      ],
+      "description": "HTTP method to submit the form",
+      "uiControl": "select",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "formNoValidate",
+      "type": "boolean",
+      "required": false,
+      "default": false,
+      "allowedValues": null,
+      "description": "Submit the form without validation",
+      "uiControl": "toggle",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "formTarget",
+      "type": "enum",
+      "required": false,
+      "default": "_self",
+      "allowedValues": [
+        "_self",
+        "_blank",
+        "_parent",
+        "_top"
+      ],
+      "description": "Where to display the response after submitting the form",
+      "uiControl": "select",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "popoverTarget",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "ID of the popover element to control",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "popoverTargetAction",
+      "type": "enum",
+      "required": false,
+      "default": "toggle",
+      "allowedValues": [
+        "toggle",
+        "show",
+        "hide"
+      ],
+      "description": "Action for the popover target",
+      "uiControl": "select",
+      "category": "behavior",
+      "constraints": null
+    }
+  ],
+  "events": [
+    {
+      "name": "onClick",
+      "description": "Fired when the button is clicked",
+      "parameters": [
+        "React.MouseEvent"
+      ]
+    },
+    {
+      "name": "onFocus",
+      "description": "Fired when the button receives focus",
+      "parameters": [
+        "React.FocusEvent"
+      ]
+    },
+    {
+      "name": "onBlur",
+      "description": "Fired when the button loses focus",
+      "parameters": [
+        "React.FocusEvent"
+      ]
+    },
+    {
+      "name": "onKeyDown",
+      "description": "Fired when a key is pressed down",
+      "parameters": [
+        "React.KeyboardEvent"
+      ]
+    },
+    {
+      "name": "onKeyUp",
+      "description": "Fired when a key is released",
+      "parameters": [
+        "React.KeyboardEvent"
+      ]
+    },
+    {
+      "name": "onMouseEnter",
+      "description": "Fired when the mouse enters the button",
+      "parameters": [
+        "React.MouseEvent"
+      ]
+    },
+    {
+      "name": "onMouseLeave",
+      "description": "Fired when the mouse leaves the button",
+      "parameters": [
+        "React.MouseEvent"
+      ]
+    },
+    {
+      "name": "onPointerDown",
+      "description": "Fired when a pointer is pressed",
+      "parameters": [
+        "React.PointerEvent"
+      ]
+    },
+    {
+      "name": "onPointerUp",
+      "description": "Fired when a pointer is released",
+      "parameters": [
+        "React.PointerEvent"
+      ]
+    }
+  ],
+  "accessibility": {
+    "ariaAttributes": [
+      "aria-pressed",
+      "aria-expanded",
+      "aria-label",
+      "aria-describedby",
+      "aria-disabled",
+      "aria-controls",
+      "aria-haspopup"
+    ],
+    "keyboardNavigation": {
+      "Enter": "ACTIVATE_BUTTON",
+      "Space": "ACTIVATE_BUTTON",
+      "Tab": "NEXT_BUTTON"
+    }
+  }
+}

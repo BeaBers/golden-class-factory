@@ -1,0 +1,91 @@
+﻿{
+  "project_name": "Golden Class Factory",
+  "version": "0.1.0",
+  "created_at": "2026-06-14",
+  "last_updated": "2026-06-13T22:52:48.823333",
+  "current_phase": "mining",
+  "phases": {
+    "setup": {
+      "status": "completed",
+      "started_at": "2026-06-14",
+      "completed_at": "2026-06-14T22:05:00",
+      "tasks": [
+        {
+          "id": "create_folders",
+          "name": "إنشاء هيكل المجلدات",
+          "status": "completed",
+          "completed_at": "2026-06-14T21:51:00"
+        },
+        {
+          "id": "clone_mines",
+          "name": "تنزيل المناجم (Radix UI, Konva)",
+          "status": "completed",
+          "completed_at": "2026-06-14T21:55:00"
+        },
+        {
+          "id": "create_base_files",
+          "name": "إنشاء الملفات الأساسية",
+          "status": "completed",
+          "completed_at": "2026-06-14T22:05:00"
+        }
+      ]
+    },
+    "mining": {
+      "status": "completed",
+      "started_at": "2026-06-13T22:52:48.823347",
+      "completed_at": "2026-06-13T22:52:48.823350",
+      "tasks": [
+        {
+          "id": "extract_poc",
+          "name": "استخراج خصائص PoC (Button + Rect)",
+          "status": "completed",
+          "completed_at": "2026-06-13T22:52:48.823354"
+        }
+      ]
+    },
+    "building": {
+      "status": "not_started",
+      "started_at": null,
+      "completed_at": null,
+      "tasks": []
+    },
+    "testing": {
+      "status": "not_started",
+      "started_at": null,
+      "completed_at": null,
+      "tasks": []
+    }
+  },
+  "checkpoints": [
+    {
+      "id": "checkpoint-001",
+      "date": "2026-06-14",
+      "description": "إكمال إعداد هيكل المشروع وتنزيل المناجم الأساسية",
+      "phase": "setup",
+      "completed_tasks": [
+        "create_folders",
+        "clone_mines"
+      ]
+    },
+    {
+      "id": "checkpoint-002",
+      "date": "2026-06-14",
+      "description": "إنشاء جميع الملفات الأساسية وإكمال مرحلة الإعداد",
+      "phase": "setup",
+      "completed_tasks": [
+        "create_folders",
+        "clone_mines",
+        "create_base_files"
+      ]
+    },
+    {
+      "id": "checkpoint-003",
+      "date": "2026-06-13",
+      "description": "إكمال استخراج خصائص المرحلة الأولى: Button من Radix UI و Rect من Konva.js",
+      "phase": "mining",
+      "completed_tasks": [
+        "extract_poc"
+      ]
+    }
+  ]
+}

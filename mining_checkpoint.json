@@ -1,0 +1,12 @@
+﻿{
+  "processed_files": [
+    "C:/Users/Administrator/Desktop/WebProject/01-mines/web-mine/radix-ui/packages/react/primitive/src/primitive.tsx",
+    "C:/Users/Administrator/Desktop/WebProject/01-mines/design-mine/konva/src/shapes/Rect.ts",
+    "C:/Users/Administrator/Desktop/WebProject/01-mines/design-mine/konva/src/Shape.ts",
+    "C:/Users/Administrator/Desktop/WebProject/01-mines/design-mine/konva/src/Node.ts"
+  ],
+  "extracted_elements": [
+    "Button",
+    "Rect"
+  ]
+}

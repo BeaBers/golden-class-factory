@@ -1,0 +1,467 @@
+﻿{
+  "metadata": {
+    "shapeName": "Rect",
+    "source": "Konva.js",
+    "version": "10.3.0",
+    "extractedAt": "2026-06-13",
+    "category": "design"
+  },
+  "props": [
+    {
+      "name": "x",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "dimension",
+      "constraints": {
+        "min": 0
+      },
+      "cssEquivalent": "left"
+    },
+    {
+      "name": "y",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "dimension",
+      "constraints": {
+        "min": 0
+      },
+      "cssEquivalent": "top"
+    },
+    {
+      "name": "width",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "dimension",
+      "constraints": {
+        "min": 0
+      },
+      "cssEquivalent": "width"
+    },
+    {
+      "name": "height",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "dimension",
+      "constraints": {
+        "min": 0
+      },
+      "cssEquivalent": "height"
+    },
+    {
+      "name": "visible",
+      "type": "boolean",
+      "required": false,
+      "default": true,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "toggle",
+      "category": "visual",
+      "constraints": null,
+      "cssEquivalent": "visibility"
+    },
+    {
+      "name": "listening",
+      "type": "boolean",
+      "required": false,
+      "default": true,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "toggle",
+      "category": "interaction",
+      "constraints": null,
+      "cssEquivalent": null
+    },
+    {
+      "name": "id",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "cssEquivalent": null
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "cssEquivalent": null
+    },
+    {
+      "name": "opacity",
+      "type": "number",
+      "required": false,
+      "default": 1,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "cssEquivalent": "opacity"
+    },
+    {
+      "name": "scale",
+      "type": "object",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "dimension",
+      "constraints": null,
+      "cssEquivalent": null
+    },
+    {
+      "name": "scaleX",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "dimension",
+      "constraints": {
+        "min": 0
+      },
+      "cssEquivalent": "transform:scaleX"
+    },
+    {
+      "name": "skewX",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "dimension",
+      "constraints": {
+        "min": 0
+      },
+      "cssEquivalent": "transform:skewX"
+    },
+    {
+      "name": "skewY",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "dimension",
+      "constraints": {
+        "min": 0
+      },
+      "cssEquivalent": "transform:skewY"
+    },
+    {
+      "name": "scaleY",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "dimension",
+      "constraints": {
+        "min": 0
+      },
+      "cssEquivalent": "transform:scaleY"
+    },
+    {
+      "name": "rotation",
+      "type": "number",
+      "required": false,
+      "default": 0,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "dimension",
+      "constraints": {
+        "min": 0
+      },
+      "cssEquivalent": "transform:rotate"
+    },
+    {
+      "name": "rotationDeg",
+      "type": "number",
+      "required": false,
+      "default": 0,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "dimension",
+      "constraints": {
+        "min": 0
+      },
+      "cssEquivalent": null
+    },
+    {
+      "name": "offset",
+      "type": "object",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "dimension",
+      "constraints": null,
+      "cssEquivalent": null
+    },
+    {
+      "name": "offsetX",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "dimension",
+      "constraints": {
+        "min": 0
+      },
+      "cssEquivalent": null
+    },
+    {
+      "name": "offsetY",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "dimension",
+      "constraints": {
+        "min": 0
+      },
+      "cssEquivalent": null
+    },
+    {
+      "name": "draggable",
+      "type": "boolean",
+      "required": false,
+      "default": false,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "toggle",
+      "category": "interaction",
+      "constraints": null,
+      "cssEquivalent": null
+    },
+    {
+      "name": "dragDistance",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "interaction",
+      "constraints": {
+        "min": 0
+      },
+      "cssEquivalent": null
+    },
+    {
+      "name": "dragBoundFunc",
+      "type": "object",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "interaction",
+      "constraints": null,
+      "cssEquivalent": null
+    },
+    {
+      "name": "preventDefault",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "toggle",
+      "category": "interaction",
+      "constraints": null,
+      "cssEquivalent": null
+    },
+    {
+      "name": "globalCompositeOperation",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "cssEquivalent": null
+    },
+    {
+      "name": "filters",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "cssEquivalent": null
+    }
+  ],
+  "events": [
+    {
+      "name": "click",
+      "description": "Fired when the shape is clicked",
+      "parameters": [
+        "KonvaEventObject<MouseEvent>"
+      ]
+    },
+    {
+      "name": "dblclick",
+      "description": "Fired when the shape is double-clicked",
+      "parameters": [
+        "KonvaEventObject<MouseEvent>"
+      ]
+    },
+    {
+      "name": "mousedown",
+      "description": "Fired when a mouse button is pressed",
+      "parameters": [
+        "KonvaEventObject<MouseEvent>"
+      ]
+    },
+    {
+      "name": "mouseup",
+      "description": "Fired when a mouse button is released",
+      "parameters": [
+        "KonvaEventObject<MouseEvent>"
+      ]
+    },
+    {
+      "name": "mouseenter",
+      "description": "Fired when the mouse enters the shape",
+      "parameters": [
+        "KonvaEventObject<MouseEvent>"
+      ]
+    },
+    {
+      "name": "mouseleave",
+      "description": "Fired when the mouse leaves the shape",
+      "parameters": [
+        "KonvaEventObject<MouseEvent>"
+      ]
+    },
+    {
+      "name": "mousemove",
+      "description": "Fired when the mouse moves over the shape",
+      "parameters": [
+        "KonvaEventObject<MouseEvent>"
+      ]
+    },
+    {
+      "name": "touchstart",
+      "description": "Fired when a touch starts",
+      "parameters": [
+        "KonvaEventObject<TouchEvent>"
+      ]
+    },
+    {
+      "name": "touchend",
+      "description": "Fired when a touch ends",
+      "parameters": [
+        "KonvaEventObject<TouchEvent>"
+      ]
+    },
+    {
+      "name": "tap",
+      "description": "Fired on tap gesture",
+      "parameters": [
+        "KonvaEventObject<Event>"
+      ]
+    },
+    {
+      "name": "dbltap",
+      "description": "Fired on double tap gesture",
+      "parameters": [
+        "KonvaEventObject<Event>"
+      ]
+    },
+    {
+      "name": "dragstart",
+      "description": "Fired when dragging starts",
+      "parameters": [
+        "KonvaEventObject<DragEvent>"
+      ]
+    },
+    {
+      "name": "dragmove",
+      "description": "Fired while dragging",
+      "parameters": [
+        "KonvaEventObject<DragEvent>"
+      ]
+    },
+    {
+      "name": "dragend",
+      "description": "Fired when dragging ends",
+      "parameters": [
+        "KonvaEventObject<DragEvent>"
+      ]
+    },
+    {
+      "name": "transform",
+      "description": "Fired when the shape is transformed",
+      "parameters": [
+        "KonvaEventObject<Event>"
+      ]
+    },
+    {
+      "name": "pointerdown",
+      "description": "Fired when a pointer is pressed",
+      "parameters": [
+        "KonvaEventObject<PointerEvent>"
+      ]
+    },
+    {
+      "name": "pointerup",
+      "description": "Fired when a pointer is released",
+      "parameters": [
+        "KonvaEventObject<PointerEvent>"
+      ]
+    }
+  ],
+  "capabilities": {
+    "supportsFreeformDrawing": false,
+    "supportsPathOperations": false,
+    "supportsAdvancedCorners": true,
+    "supportsBlendModes": true,
+    "supportsGradients": true
+  }
+}

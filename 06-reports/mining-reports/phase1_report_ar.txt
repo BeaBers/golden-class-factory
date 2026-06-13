@@ -1,0 +1,95 @@
+﻿============================================================
+تقرير التعدين - المرحلة الأولى (Phase 1 Mining Report)
+============================================================
+تاريخ التقرير: 2026-06-13
+المشروع: Golden Class Factory
+
+------------------------------------------------------------
+أولاً: ملخص الاستخراج
+------------------------------------------------------------
+عدد العناصر المستخرجة: 2
+  - عنصر الويب: Button (من Radix UI Primitive)
+  - عنصر الرسم: Rect (من Konva.js)
+إجمالي الخصائص المستخرجة: 38
+  - خصائص Button: 13
+  - خصائص Rect: 25
+إجمالي الأحداث: 26
+  - أحداث Button: 9
+  - أحداث Rect: 17
+نسبة نجاح الاستخراج: 100.0%
+
+------------------------------------------------------------
+ثانياً: الملفات المصدر التي تمت معالجتها
+------------------------------------------------------------
+  - 01-mines\web-mine\radix-ui\packages\react\primitive\src\primitive.tsx
+  - 01-mines\design-mine\konva\src\shapes\Rect.ts
+  - 01-mines\design-mine\konva\src\Shape.ts
+  - 01-mines\design-mine\konva\src\Node.ts
+
+------------------------------------------------------------
+ثالثاً: خصائص تم تجاوزها أو تحذيرات
+------------------------------------------------------------
+  لا توجد تحذيرات - تم استخراج جميع الخصائص بنجاح
+
+------------------------------------------------------------
+رابعاً: تفاصيل Button (Radix UI)
+------------------------------------------------------------
+المصدر: Primitive.tsx (قائمة NODES تتضمن button)
+الخصائص المميزة: asChild (لتقديم عنصر مخصص بدلاً من button الأصلي)
+نوع العنصر: button أصلي مع دعم كامل لخصائص HTML
+عدد الخصائص: 13
+    - disabled: boolean (اختياري) | افتراضي: False
+    - type: enum (اختياري) | افتراضي: submit
+    - name: string (اختياري)
+    - value: string (اختياري)
+    - autoFocus: boolean (اختياري) | افتراضي: False
+    - form: string (اختياري)
+    - formAction: string (اختياري)
+    - formEncType: enum (اختياري) | افتراضي: application/x-www-form-urlencoded
+    - formMethod: enum (اختياري) | افتراضي: get
+    - formNoValidate: boolean (اختياري) | افتراضي: False
+    - formTarget: enum (اختياري) | افتراضي: _self
+    - popoverTarget: string (اختياري)
+    - popoverTargetAction: enum (اختياري) | افتراضي: toggle
+
+------------------------------------------------------------
+خامساً: تفاصيل Rect (Konva.js)
+------------------------------------------------------------
+سلسلة الوراثة: RectConfig -> ShapeConfig -> NodeConfig
+عدد الخصائص: 25
+    - x: number (اختياري) | CSS: left
+    - y: number (اختياري) | CSS: top
+    - width: number (اختياري) | CSS: width
+    - height: number (اختياري) | CSS: height
+    - visible: boolean (اختياري) | افتراضي: True | CSS: visibility
+    - listening: boolean (اختياري) | افتراضي: True
+    - id: string (اختياري)
+    - name: string (اختياري)
+    - opacity: number (اختياري) | افتراضي: 1 | CSS: opacity
+    - scale: object (اختياري)
+    - scaleX: number (اختياري) | CSS: transform:scaleX
+    - skewX: number (اختياري) | CSS: transform:skewX
+    - skewY: number (اختياري) | CSS: transform:skewY
+    - scaleY: number (اختياري) | CSS: transform:scaleY
+    - rotation: number (اختياري) | افتراضي: 0 | CSS: transform:rotate
+    - rotationDeg: number (اختياري) | افتراضي: 0
+    - offset: object (اختياري)
+    - offsetX: number (اختياري)
+    - offsetY: number (اختياري)
+    - draggable: boolean (اختياري) | افتراضي: False
+    - dragDistance: number (اختياري)
+    - dragBoundFunc: object (اختياري)
+    - preventDefault: boolean (اختياري)
+    - globalCompositeOperation: string (اختياري)
+    - filters: string (اختياري)
+
+------------------------------------------------------------
+سادساً: مسارات المخرجات
+------------------------------------------------------------
+  صندوق Button: 03-gold-boxes/web-props/Button_v2.json
+  صندوق Rect:   03-gold-boxes/design-props/Rect_v2.json
+  هذا التقرير:   06-reports/mining-reports/phase1_report_ar.txt
+
+============================================================
+انتهى التقرير - Golden Class Factory - المرحلة الأولى
+============================================================

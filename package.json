@@ -1,0 +1,11 @@
+﻿{
+  "name": "golden-class-factory",
+  "version": "0.1.0",
+  "description": "منصة تصميم ويب ثورية تعتمد على الكلاسات الذهبية",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["design", "web", "canvas", "golden-class"],
+  "author": "WebProject Team",
+  "license": "MIT"
+}
