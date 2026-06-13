@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "name": "Alert-Dialog",
+    "source": "Radix UI",
+    "ver": "1.0.0",
+    "date": "2026-06-13",
+    "type": "web"
+  },
+  "sem": {
+    "tag": "div",
+    "container": false,
+    "children": true,
+    "role": "alert-dialog"
+  },
+  "props": [],
+  "events": [
+    {
+      "name": "onOpenChange",
+      "desc": "Open state changes",
+      "params": [
+        "boolean"
+      ]
+    },
+    {
+      "name": "onClick",
+      "desc": "Clicked",
+      "params": [
+        "React.MouseEvent"
+      ]
+    },
+    {
+      "name": "onFocus",
+      "desc": "Focused",
+      "params": [
+        "React.FocusEvent"
+      ]
+    },
+    {
+      "name": "onBlur",
+      "desc": "Blurred",
+      "params": [
+        "React.FocusEvent"
+      ]
+    }
+  ],
+  "access": {
+    "aria": [
+      "aria-label",
+      "aria-describedby",
+      "aria-modal",
+      "aria-hidden"
+    ],
+    "kb": {
+      "Escape": "Close",
+      "Tab": "Cycle focus"
+    }
+  }
+}

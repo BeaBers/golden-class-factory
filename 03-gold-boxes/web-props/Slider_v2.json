@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "name": "Slider",
+    "source": "Radix UI",
+    "ver": "1.0.0",
+    "date": "2026-06-13",
+    "type": "web"
+  },
+  "sem": {
+    "tag": "span",
+    "container": false,
+    "children": true,
+    "role": "slider"
+  },
+  "props": [
+    {
+      "name": "min",
+      "type": "number",
+      "required": true,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "max",
+      "type": "number",
+      "required": true,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "inverted",
+      "type": "boolean",
+      "required": true,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "toggle",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "onSlideStart",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "onSlideMove",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "onSlideEnd",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "onHomeKeyDown",
+      "type": "string",
+      "required": true,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "onEndKeyDown",
+      "type": "string",
+      "required": true,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "onStepKeyDown",
+      "type": "string",
+      "required": true,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "children",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    }
+  ],
+  "events": [
+    {
+      "name": "onValueChange",
+      "desc": "Slider value changes",
+      "params": [
+        "number[]"
+      ]
+    },
+    {
+      "name": "onClick",
+      "desc": "Clicked",
+      "params": [
+        "React.MouseEvent"
+      ]
+    },
+    {
+      "name": "onFocus",
+      "desc": "Focused",
+      "params": [
+        "React.FocusEvent"
+      ]
+    },
+    {
+      "name": "onBlur",
+      "desc": "Blurred",
+      "params": [
+        "React.FocusEvent"
+      ]
+    }
+  ],
+  "access": {
+    "aria": [
+      "aria-label",
+      "aria-describedby",
+      "aria-valuemin",
+      "aria-valuemax",
+      "aria-valuenow",
+      "aria-orientation"
+    ],
+    "kb": {
+      "ArrowRight": "Increase",
+      "ArrowLeft": "Decrease"
+    }
+  }
+}

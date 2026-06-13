@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "name": "Hover-Card",
+    "source": "Radix UI",
+    "ver": "1.0.0",
+    "date": "2026-06-13",
+    "type": "web"
+  },
+  "sem": {
+    "tag": "div",
+    "container": false,
+    "children": true,
+    "role": "hover-card"
+  },
+  "props": [
+    {
+      "name": "children",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "open",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "toggle",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "defaultOpen",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "toggle",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "onOpenChange",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "openDelay",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "closeDelay",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "slider",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "container",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "forceMount",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    }
+  ],
+  "events": [
+    {
+      "name": "onOpenChange",
+      "desc": "Open state changes",
+      "params": [
+        "boolean"
+      ]
+    },
+    {
+      "name": "onClick",
+      "desc": "Clicked",
+      "params": [
+        "React.MouseEvent"
+      ]
+    },
+    {
+      "name": "onFocus",
+      "desc": "Focused",
+      "params": [
+        "React.FocusEvent"
+      ]
+    },
+    {
+      "name": "onBlur",
+      "desc": "Blurred",
+      "params": [
+        "React.FocusEvent"
+      ]
+    }
+  ],
+  "access": {
+    "aria": [
+      "aria-label",
+      "aria-describedby"
+    ],
+    "kb": {}
+  }
+}

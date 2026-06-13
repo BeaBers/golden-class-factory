@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "name": "Switch",
+    "source": "Radix UI",
+    "ver": "1.0.0",
+    "date": "2026-06-13",
+    "type": "web"
+  },
+  "sem": {
+    "tag": "button",
+    "container": false,
+    "children": true,
+    "role": "switch"
+  },
+  "props": [
+    {
+      "name": "checked",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "toggle",
+      "category": "state",
+      "constraints": null
+    },
+    {
+      "name": "defaultChecked",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "toggle",
+      "category": "state",
+      "constraints": null
+    },
+    {
+      "name": "required",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "toggle",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "onCheckedChange",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "state",
+      "constraints": null
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "form",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "disabled",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "toggle",
+      "category": "state",
+      "constraints": null
+    },
+    {
+      "name": "value",
+      "type": "array",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    },
+    {
+      "name": "children",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null
+    }
+  ],
+  "events": [
+    {
+      "name": "onValueChange",
+      "desc": "Value changes",
+      "params": [
+        "string|boolean"
+      ]
+    },
+    {
+      "name": "onClick",
+      "desc": "Clicked",
+      "params": [
+        "React.MouseEvent"
+      ]
+    },
+    {
+      "name": "onFocus",
+      "desc": "Focused",
+      "params": [
+        "React.FocusEvent"
+      ]
+    },
+    {
+      "name": "onBlur",
+      "desc": "Blurred",
+      "params": [
+        "React.FocusEvent"
+      ]
+    }
+  ],
+  "access": {
+    "aria": [
+      "aria-label",
+      "aria-describedby",
+      "aria-pressed",
+      "aria-checked",
+      "aria-disabled"
+    ],
+    "kb": {
+      "Space": "Toggle",
+      "Enter": "Activate"
+    }
+  }
+}

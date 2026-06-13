@@ -1,6 +1,6 @@
 {
   "meta": {
-    "name": "Rect",
+    "name": "Wedge",
     "source": "Konva.js",
     "ver": "10.3.0",
     "date": "2026-06-13",
@@ -1122,19 +1122,6 @@
       "constraints": null,
       "css": null,
       "cat": "state"
-    },
-    {
-      "name": "cornerRadius",
-      "type": "array",
-      "required": false,
-      "default": 0,
-      "allowedValues": null,
-      "description": "",
-      "uiControl": "text_input",
-      "category": "visual",
-      "constraints": null,
-      "css": "border-radius",
-      "cat": "visual"
     }
   ],
   "events": [
@@ -1214,7 +1201,7 @@
   "caps": {
     "freeform": false,
     "path": false,
-    "corners": true,
+    "corners": false,
     "blend": true,
     "grad": true
   }

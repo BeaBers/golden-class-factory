@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "name": "Toggle",
+    "source": "Radix UI",
+    "ver": "1.0.0",
+    "date": "2026-06-13",
+    "type": "web"
+  },
+  "sem": {
+    "tag": "button",
+    "container": false,
+    "children": true,
+    "role": "toggle"
+  },
+  "props": [],
+  "events": [
+    {
+      "name": "onValueChange",
+      "desc": "Value changes",
+      "params": [
+        "string|boolean"
+      ]
+    },
+    {
+      "name": "onClick",
+      "desc": "Clicked",
+      "params": [
+        "React.MouseEvent"
+      ]
+    },
+    {
+      "name": "onFocus",
+      "desc": "Focused",
+      "params": [
+        "React.FocusEvent"
+      ]
+    },
+    {
+      "name": "onBlur",
+      "desc": "Blurred",
+      "params": [
+        "React.FocusEvent"
+      ]
+    }
+  ],
+  "access": {
+    "aria": [
+      "aria-label",
+      "aria-describedby",
+      "aria-pressed",
+      "aria-checked",
+      "aria-disabled"
+    ],
+    "kb": {
+      "Space": "Toggle",
+      "Enter": "Activate"
+    }
+  }
+}
