@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "name": "Tabs",
+    "source": "Radix UI Primitives",
+    "ver": "1.0.0",
+    "date": "2026-06-14",
+    "type": "web",
+    "miner": "full_miner_v6"
+  },
+  "hierarchy": {
+    "root": "Root",
+    "parts": [
+      "Root",
+      "List",
+      "Trigger",
+      "Content"
+    ]
+  },
+  "props": [
+    {
+      "name": "dir",
+      "type": "enum",
+      "required": false,
+      "default": null,
+      "allowedValues": [
+        "ltr",
+        "rtl",
+        "auto"
+      ],
+      "description": "The direction of navigation between toolbar items.",
+      "uiControl": "select",
+      "category": "layout",
+      "constraints": null,
+      "css": "direction"
+    },
+    {
+      "name": "defaultValue",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "The value of the tab to select by default, if uncontrolled */",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "value",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "The value for the selected tab, if controlled */",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null,
+      "css": "value (HTML attribute)"
+    },
+    {
+      "name": "activationMode",
+      "type": "enum",
+      "required": false,
+      "default": "automatic",
+      "allowedValues": [
+        "automatic",
+        "manual"
+      ],
+      "description": "Whether a tab is activated automatically or manually. */",
+      "uiControl": "select",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "forceMount",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Used to force mounting when more control is needed. Useful when controlling animation with React animation libraries.",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "loop",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property loop (text)",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "onValueChange",
+      "type": "function",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "A function called when a new tab is selected */",
+      "uiControl": "code_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "orientation",
+      "type": "string",
+      "required": false,
+      "default": "horizontal",
+      "allowedValues": null,
+      "description": "The orientation the tabs are layed out. Mainly so arrow navigation is done accordingly (left & right vs. up & down)",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": "flex-direction (logical)"
+    }
+  ],
+  "events": [
+    {
+      "name": "onValueChange",
+      "params": [
+        "string"
+      ],
+      "description": "Fires when active tab changes"
+    },
+    {
+      "name": "onClick",
+      "params": [
+        "React.MouseEvent"
+      ],
+      "description": "Fires when the component is clicked"
+    },
+    {
+      "name": "onFocus",
+      "params": [
+        "React.FocusEvent"
+      ],
+      "description": "Fires when the component gains focus"
+    },
+    {
+      "name": "onBlur",
+      "params": [
+        "React.FocusEvent"
+      ],
+      "description": "Fires when the component loses focus"
+    }
+  ]
+}

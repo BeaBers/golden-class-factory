@@ -1,0 +1,309 @@
+{
+  "meta": {
+    "name": "Toast",
+    "source": "Radix UI Primitives",
+    "ver": "1.0.0",
+    "date": "2026-06-14",
+    "type": "web",
+    "miner": "full_miner_v6"
+  },
+  "hierarchy": {
+    "root": "Root",
+    "parts": [
+      "Root",
+      "Provider",
+      "Viewport",
+      "Title",
+      "Description",
+      "Close",
+      "Action"
+    ]
+  },
+  "props": [
+    {
+      "name": "open",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Open/expanded state",
+      "uiControl": "toggle",
+      "category": "state",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "children",
+      "type": "component",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Child elements contained within",
+      "uiControl": "component_picker",
+      "category": "content",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "defaultOpen",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Default open state initial",
+      "uiControl": "toggle",
+      "category": "content",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "label",
+      "type": "string",
+      "required": false,
+      "default": "'Notification'",
+      "allowedValues": null,
+      "description": "An author-localized label for each toast. Used to help screen reader users associate the interruption with a toast.",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "type",
+      "type": "enum",
+      "required": false,
+      "default": null,
+      "allowedValues": [
+        "foreground",
+        "background"
+      ],
+      "description": "Property type (select)",
+      "uiControl": "select",
+      "category": "content",
+      "constraints": null,
+      "css": "type (HTML attribute)"
+    },
+    {
+      "name": "altText",
+      "type": "string",
+      "required": true,
+      "default": null,
+      "allowedValues": null,
+      "description": "A short description for an alternate way to carry out the action. For screen reader users who will not be able to navigate to the button easily/quickly.",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": "alt (HTML attribute)"
+    },
+    {
+      "name": "announcerContainer",
+      "type": "string",
+      "required": false,
+      "default": "document.body",
+      "allowedValues": null,
+      "description": "An optional container where the toast announcements should be appended. This is useful when working with focus traps or modal dialogs that make other elements inert.",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "duration",
+      "type": "number",
+      "required": false,
+      "default": "5000",
+      "allowedValues": null,
+      "description": "Time in milliseconds that each toast should remain visible for.",
+      "uiControl": "slider",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "forceMount",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Used to force mounting when more control is needed. Useful when controlling animation with React animation libraries.",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "hotkey",
+      "type": "array",
+      "required": false,
+      "default": "['F8']",
+      "allowedValues": null,
+      "description": "The keys to use as the keyboard shortcut that will move focus to the toast viewport.",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "onEscapeKeyDown",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property onEscapeKeyDown (text)",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "onOpenChange",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property onOpenChange (text)",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "onPause",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property onPause (text)",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "onResume",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property onResume (text)",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "onSwipeCancel",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property onSwipeCancel (text)",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "onSwipeEnd",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property onSwipeEnd (text)",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "onSwipeMove",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property onSwipeMove (text)",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "onSwipeStart",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property onSwipeStart (text)",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "swipeDirection",
+      "type": "string",
+      "required": false,
+      "default": "'right'",
+      "allowedValues": null,
+      "description": "Direction of pointer swipe that should close the toast.",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "swipeThreshold",
+      "type": "number",
+      "required": false,
+      "default": "50",
+      "allowedValues": null,
+      "description": "Distance in pixels that the swipe must pass before a close is triggered.",
+      "uiControl": "slider",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "onFocusFromOutsideViewport",
+      "type": "string",
+      "required": true,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property onFocusFromOutsideViewport (text)",
+      "uiControl": "text_input",
+      "category": "events",
+      "constraints": null,
+      "css": null
+    }
+  ],
+  "events": [
+    {
+      "name": "onClick",
+      "params": [
+        "React.MouseEvent"
+      ],
+      "description": "Fires when the component is clicked"
+    },
+    {
+      "name": "onFocus",
+      "params": [
+        "React.FocusEvent"
+      ],
+      "description": "Fires when the component gains focus"
+    },
+    {
+      "name": "onBlur",
+      "params": [
+        "React.FocusEvent"
+      ],
+      "description": "Fires when the component loses focus"
+    },
+    {
+      "name": "onSwipe",
+      "params": [
+        "Event"
+      ],
+      "description": "Fires when the toast is swiped"
+    }
+  ]
+}

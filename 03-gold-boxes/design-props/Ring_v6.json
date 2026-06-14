@@ -1,0 +1,1532 @@
+{
+  "meta": {
+    "name": "Ring",
+    "source": "Konva.js",
+    "ver": "10.3.0",
+    "date": "2026-06-14",
+    "type": "design",
+    "miner": "full_miner_v6"
+  },
+  "props": [
+    {
+      "name": "x",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Ahorizontal position (X) of the element relative to parent",
+      "uiControl": "slider",
+      "category": "dimension",
+      "constraints": {
+        "min": 0
+      },
+      "css": "left",
+      "inheritedFrom": "NodeConfig"
+    },
+    {
+      "name": "y",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Vertical position (Y) of the element relative to parent",
+      "uiControl": "slider",
+      "category": "dimension",
+      "constraints": {
+        "min": 0
+      },
+      "css": "top",
+      "inheritedFrom": "NodeConfig"
+    },
+    {
+      "name": "width",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "The element width",
+      "uiControl": "slider",
+      "category": "dimension",
+      "constraints": {
+        "min": 0
+      },
+      "css": "width",
+      "inheritedFrom": "NodeConfig"
+    },
+    {
+      "name": "height",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "The element height",
+      "uiControl": "slider",
+      "category": "dimension",
+      "constraints": {
+        "min": 0
+      },
+      "css": "height",
+      "inheritedFrom": "NodeConfig"
+    },
+    {
+      "name": "visible",
+      "type": "boolean",
+      "required": false,
+      "default": true,
+      "allowedValues": null,
+      "description": "Toggle visibility of the element",
+      "uiControl": "toggle",
+      "category": "visual",
+      "constraints": null,
+      "css": "visibility",
+      "inheritedFrom": "NodeConfig"
+    },
+    {
+      "name": "listening",
+      "type": "boolean",
+      "required": false,
+      "default": true,
+      "allowedValues": null,
+      "description": "Enable event listeners for element",
+      "uiControl": "toggle",
+      "category": "interaction",
+      "constraints": null,
+      "css": null,
+      "inheritedFrom": "NodeConfig"
+    },
+    {
+      "name": "id",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Element unique identifier (HTML id)",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null,
+      "css": "id (HTML attribute)",
+      "inheritedFrom": "NodeConfig"
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Element name (used in forms)",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null,
+      "css": "name (HTML attribute)",
+      "inheritedFrom": "NodeConfig"
+    },
+    {
+      "name": "opacity",
+      "type": "number",
+      "required": false,
+      "default": 1,
+      "allowedValues": null,
+      "description": "Element opacity (0=transparent, 1=opaque)",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0,
+        "max": 1,
+        "step": 0.01
+      },
+      "css": "opacity",
+      "inheritedFrom": "NodeConfig"
+    },
+    {
+      "name": "scale",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Uniform scale factor",
+      "uiControl": "text_input",
+      "category": "transform",
+      "constraints": {
+        "min": -10,
+        "max": 10,
+        "step": 0.1
+      },
+      "css": "transform: scale(N)",
+      "inheritedFrom": "NodeConfig"
+    },
+    {
+      "name": "scaleX",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Horizontal scale factor (1=normal)",
+      "uiControl": "slider",
+      "category": "transform",
+      "constraints": {
+        "min": -10,
+        "max": 10,
+        "step": 0.1
+      },
+      "css": "transform: scaleX(N)",
+      "inheritedFrom": "NodeConfig"
+    },
+    {
+      "name": "skewX",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Horizontal skew angle",
+      "uiControl": "slider",
+      "category": "transform",
+      "constraints": {
+        "min": -360,
+        "max": 360
+      },
+      "css": "transform: skewX(Ndeg)",
+      "inheritedFrom": "NodeConfig"
+    },
+    {
+      "name": "skewY",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Vertical skew angle",
+      "uiControl": "slider",
+      "category": "transform",
+      "constraints": {
+        "min": -360,
+        "max": 360
+      },
+      "css": "transform: skewY(Ndeg)",
+      "inheritedFrom": "NodeConfig"
+    },
+    {
+      "name": "scaleY",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Vertical scale factor (1=normal)",
+      "uiControl": "slider",
+      "category": "transform",
+      "constraints": {
+        "min": -10,
+        "max": 10,
+        "step": 0.1
+      },
+      "css": "transform: scaleY(N)",
+      "inheritedFrom": "NodeConfig"
+    },
+    {
+      "name": "rotation",
+      "type": "number",
+      "required": false,
+      "default": 0,
+      "allowedValues": null,
+      "description": "Rotation angle in degrees (-360 to 360)",
+      "uiControl": "slider",
+      "category": "transform",
+      "constraints": {
+        "min": -360,
+        "max": 360
+      },
+      "css": "transform: rotate(Ndeg)",
+      "inheritedFrom": "NodeConfig"
+    },
+    {
+      "name": "rotationDeg",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Rotation angle in degrees (0-360)",
+      "uiControl": "slider",
+      "category": "transform",
+      "constraints": {
+        "min": -360,
+        "max": 360
+      },
+      "css": "transform: rotate(Ndeg)",
+      "inheritedFrom": "NodeConfig"
+    },
+    {
+      "name": "offset",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property offset (text)",
+      "uiControl": "text_input",
+      "category": "dimension",
+      "constraints": null,
+      "css": "transform-origin",
+      "inheritedFrom": "NodeConfig"
+    },
+    {
+      "name": "offsetX",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property offsetX (numeric)",
+      "uiControl": "slider",
+      "category": "dimension",
+      "constraints": {
+        "min": 0
+      },
+      "css": "transform-origin (X)",
+      "inheritedFrom": "NodeConfig"
+    },
+    {
+      "name": "offsetY",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property offsetY (numeric)",
+      "uiControl": "slider",
+      "category": "dimension",
+      "constraints": {
+        "min": 0
+      },
+      "css": "transform-origin (Y)",
+      "inheritedFrom": "NodeConfig"
+    },
+    {
+      "name": "draggable",
+      "type": "boolean",
+      "required": false,
+      "default": false,
+      "allowedValues": null,
+      "description": "Allow element to be dragged",
+      "uiControl": "toggle",
+      "category": "interaction",
+      "constraints": null,
+      "css": null,
+      "inheritedFrom": "NodeConfig"
+    },
+    {
+      "name": "dragDistance",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Minimum distance before drag starts",
+      "uiControl": "slider",
+      "category": "interaction",
+      "constraints": {
+        "min": 0
+      },
+      "css": null,
+      "inheritedFrom": "NodeConfig"
+    },
+    {
+      "name": "dragBoundFunc",
+      "type": "function",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Function to limit drag boundaries",
+      "uiControl": "code_input",
+      "category": "interaction",
+      "constraints": null,
+      "css": null,
+      "inheritedFrom": "NodeConfig"
+    },
+    {
+      "name": "preventDefault",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Prevent default browser behavior",
+      "uiControl": "toggle",
+      "category": "interaction",
+      "constraints": null,
+      "css": null,
+      "inheritedFrom": "NodeConfig"
+    },
+    {
+      "name": "globalCompositeOperation",
+      "type": "enum",
+      "required": false,
+      "default": null,
+      "allowedValues": [
+        "source-over",
+        "source-in",
+        "source-out",
+        "source-atop",
+        "destination-over",
+        "destination-in",
+        "destination-out",
+        "destination-atop",
+        "lighter",
+        "xor",
+        "multiply",
+        "screen",
+        "overlay",
+        "darken",
+        "lighten",
+        "color-dodge",
+        "color-burn",
+        "hard-light",
+        "soft-light",
+        "difference",
+        "exclusion"
+      ],
+      "description": "Global compositing blend mode",
+      "uiControl": "select",
+      "category": "behavior",
+      "constraints": null,
+      "css": "mix-blend-mode",
+      "inheritedFrom": "NodeConfig"
+    },
+    {
+      "name": "filters",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Canvas filters (blur, brightness...)",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "filter (CSS functions)",
+      "inheritedFrom": "NodeConfig"
+    },
+    {
+      "name": "fill",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Fill color of the element",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "background-color",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillPatternImage",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Image used for fill pattern",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "background-image",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillPatternX",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Pattern horizontal offset",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background-position-x",
+      "dependsOn": {
+        "dependsOn": "fillPatternImage",
+        "condition": "!=",
+        "value": null
+      },
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillPatternY",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Pattern vertical offset",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background-position-y",
+      "dependsOn": {
+        "dependsOn": "fillPatternImage",
+        "condition": "!=",
+        "value": null
+      },
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillPatternOffset",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property fillPatternOffset (text)",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "background-position",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillPatternOffsetX",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property fillPatternOffsetX (numeric)",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background-position (X)",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillPatternOffsetY",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property fillPatternOffsetY (numeric)",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background-position (Y)",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillPatternScale",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property fillPatternScale (text)",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "background-size",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillPatternScaleX",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property fillPatternScaleX (numeric)",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background-size (X)",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillPatternScaleY",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property fillPatternScaleY (numeric)",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background-size (Y)",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillPatternRotation",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property fillPatternRotation (numeric)",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background (rotation)",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillPatternRepeat",
+      "type": "enum",
+      "required": false,
+      "default": null,
+      "allowedValues": [
+        "repeat",
+        "repeat-x",
+        "repeat-y",
+        "no-repeat"
+      ],
+      "description": "Pattern repetition mode",
+      "uiControl": "select",
+      "category": "visual",
+      "constraints": null,
+      "css": "background-repeat",
+      "dependsOn": {
+        "dependsOn": "fillPatternImage",
+        "condition": "!=",
+        "value": null
+      },
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillLinearGradientStartPoint",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property fillLinearGradientStartPoint (text)",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "background: linear-gradient (start)",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillLinearGradientStartPointX",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property fillLinearGradientStartPointX (numeric)",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background: linear-gradient (start X)",
+      "dependsOn": {
+        "dependsOn": "fillLinearGradientColorStops",
+        "condition": "!=",
+        "value": null
+      },
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillLinearGradientStartPointY",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property fillLinearGradientStartPointY (numeric)",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background: linear-gradient (start Y)",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillLinearGradientEndPoint",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property fillLinearGradientEndPoint (text)",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "background: linear-gradient (end)",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillLinearGradientEndPointX",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property fillLinearGradientEndPointX (numeric)",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background: linear-gradient (end X)",
+      "dependsOn": {
+        "dependsOn": "fillLinearGradientColorStops",
+        "condition": "!=",
+        "value": null
+      },
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillLinearGradientEndPointY",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property fillLinearGradientEndPointY (numeric)",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background: linear-gradient (end Y)",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillLinearGradientColorStops",
+      "type": "array",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Linear gradient color stop values",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "background: linear-gradient (stops)",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillRadialGradientStartPoint",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property fillRadialGradientStartPoint (text)",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "background: radial-gradient (start)",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillRadialGradientStartPointX",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property fillRadialGradientStartPointX (numeric)",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background: radial-gradient (start X)",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillRadialGradientStartPointY",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property fillRadialGradientStartPointY (numeric)",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background: radial-gradient (start Y)",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillRadialGradientEndPoint",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property fillRadialGradientEndPoint (text)",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "background: radial-gradient (end)",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillRadialGradientEndPointX",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property fillRadialGradientEndPointX (numeric)",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background: radial-gradient (end X)",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillRadialGradientEndPointY",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property fillRadialGradientEndPointY (numeric)",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background: radial-gradient (end Y)",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillRadialGradientStartRadius",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property fillRadialGradientStartRadius (numeric)",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background: radial-gradient (start radius)",
+      "dependsOn": {
+        "dependsOn": "fillRadialGradientColorStops",
+        "condition": "!=",
+        "value": null
+      },
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillRadialGradientEndRadius",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property fillRadialGradientEndRadius (numeric)",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background: radial-gradient (end radius)",
+      "dependsOn": {
+        "dependsOn": "fillRadialGradientColorStops",
+        "condition": "!=",
+        "value": null
+      },
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillRadialGradientColorStops",
+      "type": "array",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Radial gradient color stop values",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "background: radial-gradient (stops)",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillEnabled",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Enable fill rendering",
+      "uiControl": "toggle",
+      "category": "visual",
+      "constraints": null,
+      "css": null,
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillPriority",
+      "type": "enum",
+      "required": false,
+      "default": null,
+      "allowedValues": [
+        "color",
+        "gradient",
+        "pattern"
+      ],
+      "description": "Fill rendering priority (color/gradient/pattern)",
+      "uiControl": "select",
+      "category": "visual",
+      "constraints": null,
+      "css": "background",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillRule",
+      "type": "enum",
+      "required": false,
+      "default": null,
+      "allowedValues": [
+        "nonzero",
+        "evenodd"
+      ],
+      "description": "Fill rule for overlapping paths",
+      "uiControl": "select",
+      "category": "visual",
+      "constraints": null,
+      "css": "clip-rule",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "stroke",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Outline stroke color",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "border-color",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "strokeWidth",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Outline stroke width",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0,
+        "max": 100
+      },
+      "css": "border-width",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "fillAfterStrokeEnabled",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property fillAfterStrokeEnabled (toggle)",
+      "uiControl": "toggle",
+      "category": "visual",
+      "constraints": null,
+      "css": null,
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "hitStrokeWidth",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Hit detection width of stroke",
+      "uiControl": "text_input",
+      "category": "interaction",
+      "constraints": {
+        "min": 0,
+        "max": 100
+      },
+      "css": null,
+      "dependsOn": {
+        "dependsOn": "strokeWidth",
+        "condition": ">",
+        "value": 0
+      },
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "strokeScaleEnabled",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Scale stroke when element scales",
+      "uiControl": "toggle",
+      "category": "visual",
+      "constraints": null,
+      "css": null,
+      "dependsOn": {
+        "dependsOn": "strokeWidth",
+        "condition": ">",
+        "value": 0
+      },
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "strokeHitEnabled",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Enable hit detection on stroke",
+      "uiControl": "toggle",
+      "category": "visual",
+      "constraints": null,
+      "css": null,
+      "dependsOn": {
+        "dependsOn": "strokeWidth",
+        "condition": ">",
+        "value": 0
+      },
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "strokeEnabled",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property strokeEnabled (toggle)",
+      "uiControl": "toggle",
+      "category": "visual",
+      "constraints": null,
+      "css": null,
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "lineJoin",
+      "type": "enum",
+      "required": false,
+      "default": null,
+      "allowedValues": [
+        "miter",
+        "round",
+        "bevel"
+      ],
+      "description": "Corner join style: miter (pointed), round, bevel",
+      "uiControl": "select",
+      "category": "visual",
+      "constraints": null,
+      "css": "stroke-linejoin",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "lineCap",
+      "type": "enum",
+      "required": false,
+      "default": null,
+      "allowedValues": [
+        "butt",
+        "round",
+        "square"
+      ],
+      "description": "Line end style: butt (flat), round, square",
+      "uiControl": "select",
+      "category": "visual",
+      "constraints": null,
+      "css": "stroke-linecap",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "miterLimit",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Maximum miter length for miter join",
+      "uiControl": "slider",
+      "category": "behavior",
+      "constraints": {
+        "min": 0,
+        "max": 100
+      },
+      "css": "stroke-miterlimit",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "sceneFunc",
+      "type": "function",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Custom scene rendering function",
+      "uiControl": "code_input",
+      "category": "rendering",
+      "constraints": null,
+      "css": null,
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "hitFunc",
+      "type": "function",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Custom hit detection function",
+      "uiControl": "code_input",
+      "category": "interaction",
+      "constraints": null,
+      "css": null,
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "shadowColor",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Color of the box shadow behind the element",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "box-shadow-color",
+      "dependsOn": {
+        "dependsOn": "shadowBlur",
+        "condition": ">",
+        "value": 0
+      },
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "shadowBlur",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Blur radius of the shadow",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0,
+        "max": 100
+      },
+      "css": "box-shadow-blur-radius",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "shadowOffset",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Shadow offset (X,Y)",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "box-shadow-offset",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "shadowOffsetX",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Horizontal shadow offset (positive=right)",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": -100,
+        "max": 100
+      },
+      "css": "box-shadow (offset X)",
+      "dependsOn": {
+        "dependsOn": "shadowBlur",
+        "condition": ">",
+        "value": 0
+      },
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "shadowOffsetY",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Vertical shadow offset (positive=down)",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": -100,
+        "max": 100
+      },
+      "css": "box-shadow (offset Y)",
+      "dependsOn": {
+        "dependsOn": "shadowBlur",
+        "condition": ">",
+        "value": 0
+      },
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "shadowOpacity",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Shadow opacity (0=transparent, 1=opaque)",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0,
+        "max": 1,
+        "step": 0.01
+      },
+      "css": "box-shadow-opacity",
+      "dependsOn": {
+        "dependsOn": "shadowBlur",
+        "condition": ">",
+        "value": 0
+      },
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "shadowEnabled",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Enable/disable shadow on element",
+      "uiControl": "toggle",
+      "category": "visual",
+      "constraints": null,
+      "css": null,
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "shadowForStrokeEnabled",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Show shadow on stroke area",
+      "uiControl": "toggle",
+      "category": "visual",
+      "constraints": null,
+      "css": null,
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "dash",
+      "type": "array",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Pattern of dashes: [dash_length, gap_length]",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "stroke-dasharray",
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "dashOffset",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Offset position of dash pattern",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "stroke-dashoffset",
+      "dependsOn": {
+        "dependsOn": "dash",
+        "condition": "!=",
+        "value": null
+      },
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "dashEnabled",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property dashEnabled (toggle)",
+      "uiControl": "toggle",
+      "category": "visual",
+      "constraints": null,
+      "css": null,
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "perfectDrawEnabled",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Enable high-quality rendering",
+      "uiControl": "toggle",
+      "category": "rendering",
+      "constraints": null,
+      "css": null,
+      "inheritedFrom": "ShapeConfig"
+    },
+    {
+      "name": "clearBeforeDraw",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Clear canvas before redraw",
+      "uiControl": "toggle",
+      "category": "rendering",
+      "constraints": null,
+      "css": null,
+      "inheritedFrom": "ContainerConfig"
+    },
+    {
+      "name": "clipFunc",
+      "type": "function",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Custom clipping function",
+      "uiControl": "code_input",
+      "category": "rendering",
+      "constraints": null,
+      "css": null,
+      "inheritedFrom": "ContainerConfig"
+    },
+    {
+      "name": "clipX",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "X position of clip region",
+      "uiControl": "slider",
+      "category": "behavior",
+      "constraints": {
+        "min": 0
+      },
+      "css": "clip-path (X)",
+      "dependsOn": {
+        "dependsOn": "clipFunc",
+        "condition": "==",
+        "value": null
+      },
+      "inheritedFrom": "ContainerConfig"
+    },
+    {
+      "name": "clipY",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Y position of clip region",
+      "uiControl": "slider",
+      "category": "behavior",
+      "constraints": {
+        "min": 0
+      },
+      "css": "clip-path (Y)",
+      "dependsOn": {
+        "dependsOn": "clipFunc",
+        "condition": "==",
+        "value": null
+      },
+      "inheritedFrom": "ContainerConfig"
+    },
+    {
+      "name": "clipWidth",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Width of clip region",
+      "uiControl": "slider",
+      "category": "behavior",
+      "constraints": {
+        "min": 0
+      },
+      "css": "clip-path (width)",
+      "dependsOn": {
+        "dependsOn": "clipFunc",
+        "condition": "==",
+        "value": null
+      },
+      "inheritedFrom": "ContainerConfig"
+    },
+    {
+      "name": "clipHeight",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Height of clip region",
+      "uiControl": "slider",
+      "category": "behavior",
+      "constraints": {
+        "min": 0
+      },
+      "css": "clip-path (height)",
+      "dependsOn": {
+        "dependsOn": "clipFunc",
+        "condition": "==",
+        "value": null
+      },
+      "inheritedFrom": "ContainerConfig"
+    },
+    {
+      "name": "innerRadius",
+      "type": "number",
+      "required": true,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property innerRadius (numeric)",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": null,
+      "inheritedFrom": "RingConfig"
+    },
+    {
+      "name": "outerRadius",
+      "type": "number",
+      "required": true,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property outerRadius (numeric)",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": null,
+      "inheritedFrom": "RingConfig"
+    }
+  ],
+  "events": [
+    {
+      "name": "click",
+      "params": [
+        "MouseEvent"
+      ],
+      "description": "Fires when shape is clicked"
+    },
+    {
+      "name": "dblclick",
+      "params": [
+        "MouseEvent"
+      ],
+      "description": "Fires on double click"
+    },
+    {
+      "name": "mousedown",
+      "params": [
+        "MouseEvent"
+      ],
+      "description": "Fires on mouse button press"
+    },
+    {
+      "name": "mouseup",
+      "params": [
+        "MouseEvent"
+      ],
+      "description": "Fires on mouse button release"
+    },
+    {
+      "name": "mouseenter",
+      "params": [
+        "MouseEvent"
+      ],
+      "description": "Fires when mouse enters shape area"
+    },
+    {
+      "name": "mouseleave",
+      "params": [
+        "MouseEvent"
+      ],
+      "description": "Fires when mouse leaves shape area"
+    },
+    {
+      "name": "touchstart",
+      "params": [
+        "TouchEvent"
+      ],
+      "description": "Fires on touch start"
+    },
+    {
+      "name": "touchend",
+      "params": [
+        "TouchEvent"
+      ],
+      "description": "Fires on touch end"
+    },
+    {
+      "name": "dragstart",
+      "params": [
+        "DragEvent"
+      ],
+      "description": "Fires when drag starts"
+    },
+    {
+      "name": "dragmove",
+      "params": [
+        "DragEvent"
+      ],
+      "description": "Fires during dragging"
+    },
+    {
+      "name": "dragend",
+      "params": [
+        "DragEvent"
+      ],
+      "description": "Fires when drag ends"
+    },
+    {
+      "name": "transform",
+      "params": [
+        "Event"
+      ],
+      "description": "Fires during transform"
+    },
+    {
+      "name": "mousewheel",
+      "params": [
+        "WheelEvent"
+      ],
+      "description": "Fires on mouse wheel scroll"
+    },
+    {
+      "name": "contextmenu",
+      "params": [
+        "MouseEvent"
+      ],
+      "description": "Fires on right-click"
+    },
+    {
+      "name": "dbltap",
+      "params": [
+        "TouchEvent"
+      ],
+      "description": "Fires on double tap (touch)"
+    },
+    {
+      "name": "tap",
+      "params": [
+        "TouchEvent"
+      ],
+      "description": "Fires on single tap (touch)"
+    }
+  ],
+  "caps": {
+    "freeform": false,
+    "path": false,
+    "corners": false,
+    "blend": true,
+    "grad": true
+  },
+  "cssFormat": {
+    "shadow": "box-shadow: {shadowOffsetX}px {shadowOffsetY}px {shadowBlur}px {shadowColor}",
+    "dash": "stroke-dasharray: {dash}",
+    "transform": "transform: translate({x}px,{y}px) rotate({rotation}deg) scale({scaleX},{scaleY})",
+    "clipPath": "clip-path: inset({clipY}px {clipWidth}px {clipHeight}px {clipX}px)"
+  }
+}

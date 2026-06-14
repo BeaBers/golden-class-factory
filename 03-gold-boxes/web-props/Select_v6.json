@@ -1,0 +1,371 @@
+{
+  "meta": {
+    "name": "Select",
+    "source": "Radix UI Primitives",
+    "ver": "1.0.0",
+    "date": "2026-06-14",
+    "type": "web",
+    "miner": "full_miner_v6"
+  },
+  "hierarchy": {
+    "root": "Root",
+    "parts": [
+      "Root",
+      "Trigger",
+      "Content",
+      "Item",
+      "ItemText",
+      "ItemIndicator",
+      "ScrollUpButton",
+      "ScrollDownButton",
+      "Value",
+      "Icon",
+      "Portal",
+      "Group",
+      "Label",
+      "Separator"
+    ]
+  },
+  "props": [
+    {
+      "name": "dir",
+      "type": "enum",
+      "required": false,
+      "default": null,
+      "allowedValues": [
+        "ltr",
+        "rtl",
+        "auto"
+      ],
+      "description": "Writing direction (rtl=right-left, ltr=left-right)",
+      "uiControl": "select",
+      "category": "layout",
+      "constraints": null,
+      "css": "direction"
+    },
+    {
+      "name": "position",
+      "type": "enum",
+      "required": false,
+      "default": null,
+      "allowedValues": [
+        "item-aligned",
+        "popper"
+      ],
+      "description": "Property position (select)",
+      "uiControl": "select",
+      "category": "layout",
+      "constraints": null,
+      "css": "position"
+    },
+    {
+      "name": "onAutoScroll",
+      "type": "string",
+      "required": true,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property onAutoScroll (text)",
+      "uiControl": "text_input",
+      "category": "interaction",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "disabled",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Disable interaction with element",
+      "uiControl": "toggle",
+      "category": "state",
+      "constraints": null,
+      "css": "disabled (HTML attribute)"
+    },
+    {
+      "name": "open",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Open/expanded state",
+      "uiControl": "toggle",
+      "category": "state",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "required",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Field is required",
+      "uiControl": "toggle",
+      "category": "state",
+      "constraints": null,
+      "css": "required (HTML attribute)"
+    },
+    {
+      "name": "children",
+      "type": "component",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Child elements contained within",
+      "uiControl": "component_picker",
+      "category": "content",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "container",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Specify a container element to portal the content into.",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "defaultOpen",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Default open state initial",
+      "uiControl": "toggle",
+      "category": "content",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "defaultValue",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Default value initial",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "form",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Associated HTML form",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null,
+      "css": "form (HTML attribute)"
+    },
+    {
+      "name": "fragment",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property fragment (text)",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Element name (used in forms)",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null,
+      "css": "name (HTML attribute)"
+    },
+    {
+      "name": "nonce",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "CSP nonce hash value",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null,
+      "css": "nonce (HTML attribute)"
+    },
+    {
+      "name": "placeholder",
+      "type": "component",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Placeholder text when empty",
+      "uiControl": "component_picker",
+      "category": "content",
+      "constraints": null,
+      "css": "placeholder"
+    },
+    {
+      "name": "textValue",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Alternative text value for accessibility",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "value",
+      "type": "string",
+      "required": true,
+      "default": null,
+      "allowedValues": null,
+      "description": "Current value of the element",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null,
+      "css": "value (HTML attribute)"
+    },
+    {
+      "name": "autoComplete",
+      "type": "enum",
+      "required": false,
+      "default": null,
+      "allowedValues": [
+        "off",
+        "on",
+        "name",
+        "email",
+        "username",
+        "new-password",
+        "current-password"
+      ],
+      "description": "Browser autocomplete suggestions",
+      "uiControl": "select",
+      "category": "behavior",
+      "constraints": null,
+      "css": "autocomplete (HTML attribute)"
+    },
+    {
+      "name": "forceMount",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Used to force mounting when more control is needed. Useful when controlling animation with React animation libraries.",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "onCloseAutoFocus",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Event handler called when auto-focusing on close. Can be prevented.",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "onEscapeKeyDown",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Event handler called when the escape key is down. Can be prevented.",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "onOpenChange",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property onOpenChange (text)",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "onPointerDownOutside",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Event handler called when the a `pointerdown` event happens outside of the `DismissableLayer`. Can be prevented.",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "onValueChange",
+      "type": "function",
+      "required": true,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property onValueChange (callback)",
+      "uiControl": "code_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    }
+  ],
+  "events": [
+    {
+      "name": "onValueChange",
+      "params": [
+        "string|boolean"
+      ],
+      "description": "Fires when value changes"
+    },
+    {
+      "name": "onClick",
+      "params": [
+        "React.MouseEvent"
+      ],
+      "description": "Fires when the component is clicked"
+    },
+    {
+      "name": "onFocus",
+      "params": [
+        "React.FocusEvent"
+      ],
+      "description": "Fires when the component gains focus"
+    },
+    {
+      "name": "onBlur",
+      "params": [
+        "React.FocusEvent"
+      ],
+      "description": "Fires when the component loses focus"
+    },
+    {
+      "name": "onCloseAutoFocus",
+      "params": [
+        "Event"
+      ],
+      "description": "Fires after close with auto-focus management"
+    }
+  ]
+}

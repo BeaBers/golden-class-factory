@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "name": "Accordion",
+    "source": "Radix UI Primitives",
+    "ver": "1.0.0",
+    "date": "2026-06-14",
+    "type": "web",
+    "miner": "full_miner_v6"
+  },
+  "hierarchy": {
+    "root": "Root",
+    "parts": [
+      "Root",
+      "Item",
+      "Header",
+      "Trigger",
+      "Content"
+    ]
+  },
+  "props": [
+    {
+      "name": "dir",
+      "type": "enum",
+      "required": false,
+      "default": null,
+      "allowedValues": [
+        "ltr",
+        "rtl",
+        "auto"
+      ],
+      "description": "The language read direction.",
+      "uiControl": "select",
+      "category": "layout",
+      "constraints": null,
+      "css": "direction"
+    },
+    {
+      "name": "disabled",
+      "type": "boolean",
+      "required": false,
+      "default": "false",
+      "allowedValues": null,
+      "description": "Whether or not an accordion is disabled from user interaction.",
+      "uiControl": "toggle",
+      "category": "state",
+      "constraints": null,
+      "css": "disabled (HTML attribute)"
+    },
+    {
+      "name": "defaultValue",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "The value of the item whose content is expanded when the accordion is initially rendered. Use `defaultValue` if you do not need to control the state of an accordion.",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "type",
+      "type": "string",
+      "required": true,
+      "default": null,
+      "allowedValues": null,
+      "description": "Property type (text)",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null,
+      "css": "type (HTML attribute)"
+    },
+    {
+      "name": "value",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "The controlled stateful value of the accordion item whose content is expanded.",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null,
+      "css": "value (HTML attribute)"
+    },
+    {
+      "name": "collapsible",
+      "type": "boolean",
+      "required": false,
+      "default": "false",
+      "allowedValues": null,
+      "description": "Whether an accordion item can be collapsed after it has been opened.",
+      "uiControl": "toggle",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "onValueChange",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "The callback that fires when the state of the accordion changes.",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "orientation",
+      "type": "string",
+      "required": false,
+      "default": "vertical",
+      "allowedValues": null,
+      "description": "The layout in which the Accordion operates.",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": "flex-direction (logical)"
+    }
+  ],
+  "events": [
+    {
+      "name": "onValueChange",
+      "params": [
+        "string[]"
+      ],
+      "description": "Fires when expanded item changes"
+    },
+    {
+      "name": "onClick",
+      "params": [
+        "React.MouseEvent"
+      ],
+      "description": "Fires when the component is clicked"
+    },
+    {
+      "name": "onFocus",
+      "params": [
+        "React.FocusEvent"
+      ],
+      "description": "Fires when the component gains focus"
+    },
+    {
+      "name": "onBlur",
+      "params": [
+        "React.FocusEvent"
+      ],
+      "description": "Fires when the component loses focus"
+    }
+  ]
+}

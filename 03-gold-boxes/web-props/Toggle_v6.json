@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "name": "Toggle",
+    "source": "Radix UI Primitives",
+    "ver": "1.0.0",
+    "date": "2026-06-14",
+    "type": "web",
+    "miner": "full_miner_v6"
+  },
+  "hierarchy": {
+    "root": "Root",
+    "parts": [
+      "Root"
+    ]
+  },
+  "props": [
+    {
+      "name": "pressed",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "The controlled state of the toggle.",
+      "uiControl": "toggle",
+      "category": "state",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "defaultPressed",
+      "type": "boolean",
+      "required": false,
+      "default": "false",
+      "allowedValues": null,
+      "description": "The state of the toggle when initially rendered. Use `defaultPressed` if you do not need to control the state of the toggle.",
+      "uiControl": "toggle",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "onPressedChange",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "The callback that fires when the state of the toggle changes.",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    }
+  ],
+  "events": [
+    {
+      "name": "onValueChange",
+      "params": [
+        "string|boolean"
+      ],
+      "description": "Fires when toggle state changes"
+    },
+    {
+      "name": "onClick",
+      "params": [
+        "React.MouseEvent"
+      ],
+      "description": "Fires when the component is clicked"
+    },
+    {
+      "name": "onFocus",
+      "params": [
+        "React.FocusEvent"
+      ],
+      "description": "Fires when the component gains focus"
+    },
+    {
+      "name": "onBlur",
+      "params": [
+        "React.FocusEvent"
+      ],
+      "description": "Fires when the component loses focus"
+    }
+  ]
+}
