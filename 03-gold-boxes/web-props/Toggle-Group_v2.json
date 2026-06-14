@@ -19,7 +19,7 @@
       "required": true,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "type (string)",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -30,7 +30,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "The controlled value",
       "uiControl": "text_input",
       "category": "content",
       "constraints": null
@@ -41,7 +41,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "The initial value",
       "uiControl": "text_input",
       "category": "content",
       "constraints": null
@@ -52,7 +52,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "ValueChange (string)",
       "uiControl": "text_input",
       "category": "content",
       "constraints": null
@@ -63,7 +63,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Whether the component is disabled",
       "uiControl": "toggle",
       "category": "state",
       "constraints": null
@@ -74,7 +74,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "rovingFocus (boolean)",
       "uiControl": "toggle",
       "category": "behavior",
       "constraints": null
@@ -85,7 +85,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Whether navigation loops",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -96,7 +96,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Layout: horizontal or vertical",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -107,7 +107,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Text direction: ltr or rtl",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null

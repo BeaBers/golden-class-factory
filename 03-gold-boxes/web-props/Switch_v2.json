@@ -19,7 +19,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "checked (boolean)",
       "uiControl": "toggle",
       "category": "state",
       "constraints": null
@@ -30,7 +30,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "defaultChecked (boolean)",
       "uiControl": "toggle",
       "category": "state",
       "constraints": null
@@ -41,7 +41,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Whether the field is required",
       "uiControl": "toggle",
       "category": "behavior",
       "constraints": null
@@ -52,7 +52,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "CheckedChange (string)",
       "uiControl": "text_input",
       "category": "state",
       "constraints": null
@@ -63,7 +63,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "name (string)",
       "uiControl": "text_input",
       "category": "content",
       "constraints": null
@@ -74,7 +74,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "form (string)",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -85,7 +85,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Whether the component is disabled",
       "uiControl": "toggle",
       "category": "state",
       "constraints": null
@@ -96,7 +96,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "The controlled value",
       "uiControl": "text_input",
       "category": "content",
       "constraints": null
@@ -107,7 +107,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Content of the component",
       "uiControl": "component_picker",
       "category": "content",
       "constraints": null

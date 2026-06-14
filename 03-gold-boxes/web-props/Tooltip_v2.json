@@ -19,7 +19,7 @@
       "required": true,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Content of the component",
       "uiControl": "component_picker",
       "category": "content",
       "constraints": null
@@ -30,7 +30,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "delayDurati (number)",
       "uiControl": "slider",
       "category": "behavior",
       "constraints": {
@@ -43,7 +43,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "skipDelayDurati (number)",
       "uiControl": "slider",
       "category": "behavior",
       "constraints": {
@@ -56,7 +56,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "disableHoverableCtent (boolean)",
       "uiControl": "toggle",
       "category": "behavior",
       "constraints": null
@@ -67,7 +67,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Whether the component is open/visible",
       "uiControl": "toggle",
       "category": "behavior",
       "constraints": null
@@ -78,7 +78,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Whether initially open",
       "uiControl": "toggle",
       "category": "content",
       "constraints": null
@@ -89,7 +89,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "OpenChange (function)",
       "uiControl": "code_input",
       "category": "behavior",
       "constraints": null
@@ -100,7 +100,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "ctainer (string)",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -111,7 +111,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Always mount in DOM",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -122,7 +122,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "EscapeKeyDown (string)",
       "uiControl": "text_input",
       "category": "content",
       "constraints": null
@@ -133,7 +133,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "PointerDownOutside (string)",
       "uiControl": "text_input",
       "category": "interaction",
       "constraints": null

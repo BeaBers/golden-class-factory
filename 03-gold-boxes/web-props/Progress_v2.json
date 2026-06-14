@@ -19,7 +19,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "The controlled value",
       "uiControl": "text_input",
       "category": "content",
       "constraints": null
@@ -30,7 +30,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "max (number)",
       "uiControl": "slider",
       "category": "dimension",
       "constraints": {
@@ -43,7 +43,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "getValueLabel (string)",
       "uiControl": "text_input",
       "category": "content",
       "constraints": null

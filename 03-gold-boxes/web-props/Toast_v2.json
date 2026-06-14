@@ -19,7 +19,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Content of the component",
       "uiControl": "component_picker",
       "category": "content",
       "constraints": null
@@ -30,7 +30,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "label (string)",
       "uiControl": "text_input",
       "category": "content",
       "constraints": null
@@ -41,7 +41,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "durati (number)",
       "uiControl": "slider",
       "category": "behavior",
       "constraints": {
@@ -54,7 +54,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "swipeDirecti (string)",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -65,7 +65,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "swipeThreshold (number)",
       "uiControl": "slider",
       "category": "behavior",
       "constraints": {
@@ -78,7 +78,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "announcerCtainer (string)",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -89,7 +89,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "hotkey (array)",
       "uiControl": "text_input",
       "category": "content",
       "constraints": null
@@ -100,7 +100,7 @@
       "required": true,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "FocusFromOutsideViewport (string)",
       "uiControl": "text_input",
       "category": "content",
       "constraints": null
@@ -111,7 +111,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Whether the component is open/visible",
       "uiControl": "toggle",
       "category": "behavior",
       "constraints": null
@@ -122,7 +122,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Whether initially open",
       "uiControl": "toggle",
       "category": "content",
       "constraints": null
@@ -133,7 +133,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "OpenChange (string)",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -144,7 +144,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Always mount in DOM",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -158,7 +158,7 @@
         "foreground",
         "background"
       ],
-      "description": "",
+      "description": "type (enum)",
       "uiControl": "select",
       "category": "behavior",
       "constraints": null
@@ -169,7 +169,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "EscapeKeyDown (string)",
       "uiControl": "text_input",
       "category": "content",
       "constraints": null
@@ -180,7 +180,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Pause (string)",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -191,7 +191,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Resume (string)",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -202,7 +202,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "SwipeStart (string)",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -213,7 +213,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "SwipeMove (string)",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -224,7 +224,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "SwipeCancel (string)",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -235,7 +235,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "SwipeEnd (string)",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -246,7 +246,7 @@
       "required": true,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "altText (string)",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null

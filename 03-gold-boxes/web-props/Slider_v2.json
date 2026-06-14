@@ -19,7 +19,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "name (string)",
       "uiControl": "text_input",
       "category": "content",
       "constraints": null
@@ -30,7 +30,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Whether the component is disabled",
       "uiControl": "toggle",
       "category": "state",
       "constraints": null
@@ -41,7 +41,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Layout: horizontal or vertical",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -52,7 +52,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Text direction: ltr or rtl",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -63,7 +63,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "min (number)",
       "uiControl": "slider",
       "category": "dimension",
       "constraints": {
@@ -76,7 +76,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "max (number)",
       "uiControl": "slider",
       "category": "dimension",
       "constraints": {
@@ -89,7 +89,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "step (number)",
       "uiControl": "slider",
       "category": "behavior",
       "constraints": {
@@ -102,7 +102,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "minStepsBetweenThumbs (number)",
       "uiControl": "slider",
       "category": "behavior",
       "constraints": {
@@ -115,7 +115,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "The controlled value",
       "uiControl": "text_input",
       "category": "content",
       "constraints": null
@@ -126,7 +126,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "The initial value",
       "uiControl": "text_input",
       "category": "content",
       "constraints": null
@@ -137,7 +137,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "ValueChange (string)",
       "uiControl": "text_input",
       "category": "content",
       "constraints": null
@@ -148,7 +148,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "ValueCommit (string)",
       "uiControl": "text_input",
       "category": "content",
       "constraints": null
@@ -159,7 +159,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "inverted (boolean)",
       "uiControl": "toggle",
       "category": "behavior",
       "constraints": null
@@ -170,7 +170,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "form (string)",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -181,7 +181,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Content of the component",
       "uiControl": "component_picker",
       "category": "content",
       "constraints": null

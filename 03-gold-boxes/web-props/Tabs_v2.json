@@ -52,7 +52,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Layout: horizontal or vertical",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -63,7 +63,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Text direction: ltr or rtl",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -88,7 +88,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Whether navigation loops",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -99,7 +99,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Always mount in DOM",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null

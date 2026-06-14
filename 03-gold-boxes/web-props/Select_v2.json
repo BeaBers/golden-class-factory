@@ -19,7 +19,7 @@
       "required": true,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "The controlled value",
       "uiControl": "text_input",
       "category": "content",
       "constraints": null
@@ -30,7 +30,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "The initial value",
       "uiControl": "text_input",
       "category": "content",
       "constraints": null
@@ -41,7 +41,7 @@
       "required": true,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "ValueChange (function)",
       "uiControl": "code_input",
       "category": "content",
       "constraints": null
@@ -52,7 +52,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Content of the component",
       "uiControl": "component_picker",
       "category": "content",
       "constraints": null
@@ -63,7 +63,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Whether the component is open/visible",
       "uiControl": "toggle",
       "category": "behavior",
       "constraints": null
@@ -74,7 +74,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Whether initially open",
       "uiControl": "toggle",
       "category": "content",
       "constraints": null
@@ -85,7 +85,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "OpenChange (string)",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -96,7 +96,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Text direction: ltr or rtl",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -107,7 +107,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "name (string)",
       "uiControl": "text_input",
       "category": "content",
       "constraints": null
@@ -118,7 +118,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "autoComplete (string)",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -129,7 +129,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Whether the component is disabled",
       "uiControl": "toggle",
       "category": "state",
       "constraints": null
@@ -140,7 +140,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Whether the field is required",
       "uiControl": "toggle",
       "category": "behavior",
       "constraints": null
@@ -151,7 +151,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "form (string)",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -162,7 +162,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "placeholder (component)",
       "uiControl": "component_picker",
       "category": "behavior",
       "constraints": null
@@ -173,7 +173,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "ctainer (string)",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -184,7 +184,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Always mount in DOM",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -195,7 +195,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fragment (string)",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -206,7 +206,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "CloseAutoFocus (string)",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -217,7 +217,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "EscapeKeyDown (string)",
       "uiControl": "text_input",
       "category": "content",
       "constraints": null
@@ -228,7 +228,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "PointerDownOutside (string)",
       "uiControl": "text_input",
       "category": "interaction",
       "constraints": null
@@ -242,7 +242,7 @@
         "item-aligned",
         "popper"
       ],
-      "description": "",
+      "description": "positi (enum)",
       "uiControl": "select",
       "category": "behavior",
       "constraints": null
@@ -253,7 +253,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "nce (string)",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -264,7 +264,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "textValue (string)",
       "uiControl": "text_input",
       "category": "content",
       "constraints": null
@@ -275,7 +275,7 @@
       "required": true,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "AutoScroll (string)",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null

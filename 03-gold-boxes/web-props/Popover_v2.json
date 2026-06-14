@@ -19,7 +19,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Content of the component",
       "uiControl": "component_picker",
       "category": "content",
       "constraints": null
@@ -30,7 +30,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Whether the component is open/visible",
       "uiControl": "toggle",
       "category": "behavior",
       "constraints": null
@@ -41,7 +41,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Whether initially open",
       "uiControl": "toggle",
       "category": "content",
       "constraints": null
@@ -52,7 +52,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "OpenChange (function)",
       "uiControl": "code_input",
       "category": "behavior",
       "constraints": null
@@ -63,7 +63,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Whether the component is modal",
       "uiControl": "toggle",
       "category": "behavior",
       "constraints": null
@@ -74,7 +74,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "ctainer (string)",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -85,7 +85,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Always mount in DOM",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -96,7 +96,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "trapFocus (string)",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -107,7 +107,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "OpenAutoFocus (string)",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -118,7 +118,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "CloseAutoFocus (string)",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null

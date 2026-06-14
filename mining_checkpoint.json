@@ -68,5 +68,10 @@
     "Text",
     "TextPath",
     "Wedge"
-  ]
+  ],
+  "enrichment": {
+    "completed_at": "2026-06-14 17:47:51",
+    "files_modified": 15,
+    "total_props": 1522
+  }
 }

@@ -19,7 +19,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "LoadingStatusChange (function)",
       "uiControl": "code_input",
       "category": "behavior",
       "constraints": null
@@ -30,7 +30,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "delayMs (number)",
       "uiControl": "slider",
       "category": "behavior",
       "constraints": {

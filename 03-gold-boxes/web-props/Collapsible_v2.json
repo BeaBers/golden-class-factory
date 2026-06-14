@@ -19,7 +19,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Whether initially open",
       "uiControl": "toggle",
       "category": "content",
       "constraints": null
@@ -30,7 +30,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Whether the component is open/visible",
       "uiControl": "toggle",
       "category": "behavior",
       "constraints": null
@@ -41,7 +41,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Whether the component is disabled",
       "uiControl": "toggle",
       "category": "state",
       "constraints": null
@@ -52,7 +52,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "OpenChange (string)",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -63,7 +63,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "Always mount in DOM",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null
@@ -74,7 +74,7 @@
       "required": true,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "present (boolean)",
       "uiControl": "toggle",
       "category": "behavior",
       "constraints": null

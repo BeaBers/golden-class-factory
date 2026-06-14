@@ -13,14 +13,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "x (number)",
       "uiControl": "slider",
       "category": "dimension",
       "constraints": {
         "min": 0
       },
       "css": "left",
-      "cat": "dimension"
+      "cat": "dimension",
+      "cssEquivalent": "left"
     },
     {
       "name": "y",
@@ -28,14 +29,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "y (number)",
       "uiControl": "slider",
       "category": "dimension",
       "constraints": {
         "min": 0
       },
       "css": "top",
-      "cat": "dimension"
+      "cat": "dimension",
+      "cssEquivalent": "top"
     },
     {
       "name": "width",
@@ -43,14 +45,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "width (number)",
       "uiControl": "slider",
       "category": "dimension",
       "constraints": {
         "min": 0
       },
       "css": "width",
-      "cat": "dimension"
+      "cat": "dimension",
+      "cssEquivalent": "width"
     },
     {
       "name": "height",
@@ -58,14 +61,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "height (number)",
       "uiControl": "slider",
       "category": "dimension",
       "constraints": {
         "min": 0
       },
       "css": "height",
-      "cat": "dimension"
+      "cat": "dimension",
+      "cssEquivalent": "height"
     },
     {
       "name": "visible",
@@ -73,12 +77,13 @@
       "required": false,
       "default": true,
       "allowedValues": null,
-      "description": "",
+      "description": "visible (boolean)",
       "uiControl": "toggle",
       "category": "visual",
       "constraints": null,
       "css": "visibility",
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": "visibility"
     },
     {
       "name": "listening",
@@ -86,12 +91,13 @@
       "required": false,
       "default": true,
       "allowedValues": null,
-      "description": "",
+      "description": "listening (boolean)",
       "uiControl": "toggle",
       "category": "interaction",
       "constraints": null,
       "css": null,
-      "cat": "interaction"
+      "cat": "interaction",
+      "cssEquivalent": ""
     },
     {
       "name": "id",
@@ -99,12 +105,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "id (string)",
       "uiControl": "text_input",
       "category": "content",
       "constraints": null,
       "css": null,
-      "cat": "content"
+      "cat": "content",
+      "cssEquivalent": ""
     },
     {
       "name": "name",
@@ -112,12 +119,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "name (string)",
       "uiControl": "text_input",
       "category": "content",
       "constraints": null,
       "css": null,
-      "cat": "content"
+      "cat": "content",
+      "cssEquivalent": ""
     },
     {
       "name": "opacity",
@@ -125,14 +133,15 @@
       "required": false,
       "default": 1,
       "allowedValues": null,
-      "description": "",
+      "description": "opacity (number)",
       "uiControl": "slider",
       "category": "visual",
       "constraints": {
         "min": 0
       },
       "css": "opacity",
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": "opacity"
     },
     {
       "name": "scale",
@@ -140,12 +149,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "scale (string)",
       "uiControl": "text_input",
       "category": "transform",
       "constraints": null,
       "css": null,
-      "cat": "transform"
+      "cat": "transform",
+      "cssEquivalent": ""
     },
     {
       "name": "scaleX",
@@ -153,14 +163,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "scaleX (number)",
       "uiControl": "slider",
       "category": "transform",
       "constraints": {
         "min": 0
       },
       "css": "scaleX",
-      "cat": "transform"
+      "cat": "transform",
+      "cssEquivalent": ""
     },
     {
       "name": "skewX",
@@ -168,14 +179,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "skewX (number)",
       "uiControl": "slider",
       "category": "transform",
       "constraints": {
         "min": 0
       },
       "css": "skewX",
-      "cat": "transform"
+      "cat": "transform",
+      "cssEquivalent": ""
     },
     {
       "name": "skewY",
@@ -183,14 +195,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "skewY (number)",
       "uiControl": "slider",
       "category": "transform",
       "constraints": {
         "min": 0
       },
       "css": "skewY",
-      "cat": "transform"
+      "cat": "transform",
+      "cssEquivalent": ""
     },
     {
       "name": "scaleY",
@@ -198,14 +211,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "scaleY (number)",
       "uiControl": "slider",
       "category": "transform",
       "constraints": {
         "min": 0
       },
       "css": "scaleY",
-      "cat": "transform"
+      "cat": "transform",
+      "cssEquivalent": ""
     },
     {
       "name": "rotation",
@@ -213,14 +227,15 @@
       "required": false,
       "default": 0,
       "allowedValues": null,
-      "description": "",
+      "description": "rotation (number)",
       "uiControl": "slider",
       "category": "transform",
       "constraints": {
         "min": 0
       },
       "css": "rotate",
-      "cat": "transform"
+      "cat": "transform",
+      "cssEquivalent": "transform:rotate()"
     },
     {
       "name": "rotationDeg",
@@ -228,14 +243,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "rotationDeg (number)",
       "uiControl": "slider",
       "category": "transform",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "transform"
+      "cat": "transform",
+      "cssEquivalent": ""
     },
     {
       "name": "offset",
@@ -243,12 +259,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "offset (string)",
       "uiControl": "text_input",
       "category": "dimension",
       "constraints": null,
       "css": null,
-      "cat": "dimension"
+      "cat": "dimension",
+      "cssEquivalent": ""
     },
     {
       "name": "offsetX",
@@ -256,14 +273,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "offsetX (number)",
       "uiControl": "slider",
       "category": "dimension",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "dimension"
+      "cat": "dimension",
+      "cssEquivalent": ""
     },
     {
       "name": "offsetY",
@@ -271,14 +289,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "offsetY (number)",
       "uiControl": "slider",
       "category": "dimension",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "dimension"
+      "cat": "dimension",
+      "cssEquivalent": ""
     },
     {
       "name": "draggable",
@@ -286,12 +305,13 @@
       "required": false,
       "default": false,
       "allowedValues": null,
-      "description": "",
+      "description": "draggable (boolean)",
       "uiControl": "toggle",
       "category": "interaction",
       "constraints": null,
       "css": null,
-      "cat": "interaction"
+      "cat": "interaction",
+      "cssEquivalent": ""
     },
     {
       "name": "dragDistance",
@@ -299,14 +319,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "dragDistance (number)",
       "uiControl": "slider",
       "category": "interaction",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "interaction"
+      "cat": "interaction",
+      "cssEquivalent": ""
     },
     {
       "name": "dragBoundFunc",
@@ -314,12 +335,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "dragBoundFunc (function)",
       "uiControl": "code_input",
       "category": "interaction",
       "constraints": null,
       "css": null,
-      "cat": "interaction"
+      "cat": "interaction",
+      "cssEquivalent": ""
     },
     {
       "name": "preventDefault",
@@ -327,12 +349,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "preventDefault (boolean)",
       "uiControl": "toggle",
       "category": "interaction",
       "constraints": null,
       "css": null,
-      "cat": "interaction"
+      "cat": "interaction",
+      "cssEquivalent": ""
     },
     {
       "name": "globalCompositeOperation",
@@ -340,12 +363,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "globalCompositeOperation (string)",
       "uiControl": "text_input",
       "category": "behavior",
       "constraints": null,
       "css": null,
-      "cat": "behavior"
+      "cat": "behavior",
+      "cssEquivalent": ""
     },
     {
       "name": "filters",
@@ -353,12 +377,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "filters (string)",
       "uiControl": "text_input",
       "category": "visual",
       "constraints": null,
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fill",
@@ -366,12 +391,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fill (string)",
       "uiControl": "text_input",
       "category": "visual",
       "constraints": null,
       "css": "background-color",
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": "background-color"
     },
     {
       "name": "fillPatternImage",
@@ -379,12 +405,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillPatternImage (string)",
       "uiControl": "text_input",
       "category": "visual",
       "constraints": null,
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillPatternX",
@@ -392,14 +419,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillPatternX (number)",
       "uiControl": "slider",
       "category": "visual",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillPatternY",
@@ -407,14 +435,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillPatternY (number)",
       "uiControl": "slider",
       "category": "visual",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillPatternOffset",
@@ -422,12 +451,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillPatternOffset (string)",
       "uiControl": "text_input",
       "category": "visual",
       "constraints": null,
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillPatternOffsetX",
@@ -435,14 +465,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillPatternOffsetX (number)",
       "uiControl": "slider",
       "category": "visual",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillPatternOffsetY",
@@ -450,14 +481,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillPatternOffsetY (number)",
       "uiControl": "slider",
       "category": "visual",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillPatternScale",
@@ -465,12 +497,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillPatternScale (string)",
       "uiControl": "text_input",
       "category": "visual",
       "constraints": null,
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillPatternScaleX",
@@ -478,14 +511,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillPatternScaleX (number)",
       "uiControl": "slider",
       "category": "visual",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillPatternScaleY",
@@ -493,14 +527,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillPatternScaleY (number)",
       "uiControl": "slider",
       "category": "visual",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillPatternRotation",
@@ -508,14 +543,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillPatternRotation (number)",
       "uiControl": "slider",
       "category": "visual",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillPatternRepeat",
@@ -523,12 +559,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillPatternRepeat (string)",
       "uiControl": "text_input",
       "category": "visual",
       "constraints": null,
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillLinearGradientStartPoint",
@@ -536,12 +573,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillLinearGradientStartPoint (string)",
       "uiControl": "text_input",
       "category": "visual",
       "constraints": null,
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillLinearGradientStartPointX",
@@ -549,14 +587,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillLinearGradientStartPointX (number)",
       "uiControl": "slider",
       "category": "visual",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillLinearGradientStartPointY",
@@ -564,14 +603,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillLinearGradientStartPointY (number)",
       "uiControl": "slider",
       "category": "visual",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillLinearGradientEndPoint",
@@ -579,12 +619,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillLinearGradientEndPoint (string)",
       "uiControl": "text_input",
       "category": "visual",
       "constraints": null,
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillLinearGradientEndPointX",
@@ -592,14 +633,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillLinearGradientEndPointX (number)",
       "uiControl": "slider",
       "category": "visual",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillLinearGradientEndPointY",
@@ -607,14 +649,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillLinearGradientEndPointY (number)",
       "uiControl": "slider",
       "category": "visual",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillLinearGradientColorStops",
@@ -622,12 +665,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillLinearGradientColorStops (array)",
       "uiControl": "text_input",
       "category": "visual",
       "constraints": null,
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillRadialGradientStartPoint",
@@ -635,12 +679,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillRadialGradientStartPoint (string)",
       "uiControl": "text_input",
       "category": "visual",
       "constraints": null,
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillRadialGradientStartPointX",
@@ -648,14 +693,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillRadialGradientStartPointX (number)",
       "uiControl": "slider",
       "category": "visual",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillRadialGradientStartPointY",
@@ -663,14 +709,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillRadialGradientStartPointY (number)",
       "uiControl": "slider",
       "category": "visual",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillRadialGradientEndPoint",
@@ -678,12 +725,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillRadialGradientEndPoint (string)",
       "uiControl": "text_input",
       "category": "visual",
       "constraints": null,
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillRadialGradientEndPointX",
@@ -691,14 +739,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillRadialGradientEndPointX (number)",
       "uiControl": "slider",
       "category": "visual",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillRadialGradientEndPointY",
@@ -706,14 +755,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillRadialGradientEndPointY (number)",
       "uiControl": "slider",
       "category": "visual",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillRadialGradientStartRadius",
@@ -721,14 +771,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillRadialGradientStartRadius (number)",
       "uiControl": "slider",
       "category": "visual",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillRadialGradientEndRadius",
@@ -736,14 +787,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillRadialGradientEndRadius (number)",
       "uiControl": "slider",
       "category": "visual",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillRadialGradientColorStops",
@@ -751,12 +803,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillRadialGradientColorStops (array)",
       "uiControl": "text_input",
       "category": "visual",
       "constraints": null,
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillEnabled",
@@ -764,12 +817,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillEnabled (boolean)",
       "uiControl": "toggle",
       "category": "visual",
       "constraints": null,
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillPriority",
@@ -777,12 +831,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillPriority (string)",
       "uiControl": "text_input",
       "category": "visual",
       "constraints": null,
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "fillRule",
@@ -790,12 +845,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillRule (string)",
       "uiControl": "text_input",
       "category": "visual",
       "constraints": null,
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "stroke",
@@ -803,12 +859,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "stroke (string)",
       "uiControl": "text_input",
       "category": "visual",
       "constraints": null,
       "css": "border-color",
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": "border-color"
     },
     {
       "name": "strokeWidth",
@@ -816,14 +873,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "strokeWidth (number)",
       "uiControl": "slider",
       "category": "visual",
       "constraints": {
         "min": 0
       },
       "css": "border-width",
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": "border-width"
     },
     {
       "name": "fillAfterStrokeEnabled",
@@ -831,12 +889,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "fillAfterStrokeEnabled (boolean)",
       "uiControl": "toggle",
       "category": "visual",
       "constraints": null,
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "hitStrokeWidth",
@@ -844,12 +903,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "hitStrokeWidth (string)",
       "uiControl": "text_input",
       "category": "visual",
       "constraints": null,
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "strokeScaleEnabled",
@@ -857,12 +917,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "strokeScaleEnabled (boolean)",
       "uiControl": "toggle",
       "category": "visual",
       "constraints": null,
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "strokeHitEnabled",
@@ -870,12 +931,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "strokeHitEnabled (boolean)",
       "uiControl": "toggle",
       "category": "visual",
       "constraints": null,
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "strokeEnabled",
@@ -883,12 +945,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "strokeEnabled (boolean)",
       "uiControl": "toggle",
       "category": "visual",
       "constraints": null,
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "lineJoin",
@@ -896,12 +959,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "lineJoin (string)",
       "uiControl": "text_input",
       "category": "visual",
       "constraints": null,
       "css": "stroke-linejoin",
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "lineCap",
@@ -909,12 +973,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "lineCap (string)",
       "uiControl": "text_input",
       "category": "visual",
       "constraints": null,
       "css": "stroke-linecap",
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "miterLimit",
@@ -922,14 +987,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "miterLimit (number)",
       "uiControl": "slider",
       "category": "behavior",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "behavior"
+      "cat": "behavior",
+      "cssEquivalent": ""
     },
     {
       "name": "sceneFunc",
@@ -937,12 +1003,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "sceneFunc (function)",
       "uiControl": "code_input",
       "category": "behavior",
       "constraints": null,
       "css": null,
-      "cat": "behavior"
+      "cat": "behavior",
+      "cssEquivalent": ""
     },
     {
       "name": "hitFunc",
@@ -950,12 +1017,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "hitFunc (function)",
       "uiControl": "code_input",
       "category": "interaction",
       "constraints": null,
       "css": null,
-      "cat": "interaction"
+      "cat": "interaction",
+      "cssEquivalent": ""
     },
     {
       "name": "shadowColor",
@@ -963,12 +1031,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "shadowColor (string)",
       "uiControl": "text_input",
       "category": "visual",
       "constraints": null,
       "css": "box-shadow-color",
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": "box-shadow color"
     },
     {
       "name": "shadowBlur",
@@ -976,14 +1045,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "shadowBlur (number)",
       "uiControl": "slider",
       "category": "visual",
       "constraints": {
         "min": 0
       },
       "css": "box-shadow-blur-radius",
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": "box-shadow blur"
     },
     {
       "name": "shadowOffset",
@@ -991,12 +1061,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "shadowOffset (string)",
       "uiControl": "text_input",
       "category": "visual",
       "constraints": null,
       "css": "box-shadow-offset",
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "shadowOffsetX",
@@ -1004,14 +1075,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "shadowOffsetX (number)",
       "uiControl": "slider",
       "category": "visual",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "shadowOffsetY",
@@ -1019,14 +1091,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "shadowOffsetY (number)",
       "uiControl": "slider",
       "category": "visual",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "shadowOpacity",
@@ -1034,14 +1107,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "shadowOpacity (number)",
       "uiControl": "slider",
       "category": "visual",
       "constraints": {
         "min": 0
       },
       "css": "box-shadow-opacity",
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "shadowEnabled",
@@ -1049,12 +1123,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "shadowEnabled (boolean)",
       "uiControl": "toggle",
       "category": "visual",
       "constraints": null,
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "shadowForStrokeEnabled",
@@ -1062,12 +1137,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "shadowForStrokeEnabled (boolean)",
       "uiControl": "toggle",
       "category": "visual",
       "constraints": null,
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "dash",
@@ -1075,12 +1151,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "dash (array)",
       "uiControl": "text_input",
       "category": "visual",
       "constraints": null,
       "css": "stroke-dasharray",
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "dashOffset",
@@ -1088,14 +1165,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "dashOffset (number)",
       "uiControl": "slider",
       "category": "visual",
       "constraints": {
         "min": 0
       },
       "css": "stroke-dashoffset",
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "dashEnabled",
@@ -1103,12 +1181,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "dashEnabled (boolean)",
       "uiControl": "toggle",
       "category": "visual",
       "constraints": null,
       "css": null,
-      "cat": "visual"
+      "cat": "visual",
+      "cssEquivalent": ""
     },
     {
       "name": "perfectDrawEnabled",
@@ -1116,12 +1195,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "perfectDrawEnabled (boolean)",
       "uiControl": "toggle",
       "category": "state",
       "constraints": null,
       "css": null,
-      "cat": "state"
+      "cat": "state",
+      "cssEquivalent": ""
     },
     {
       "name": "clearBeforeDraw",
@@ -1129,12 +1209,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "clearBeforeDraw (boolean)",
       "uiControl": "toggle",
       "category": "behavior",
       "constraints": null,
       "css": null,
-      "cat": "behavior"
+      "cat": "behavior",
+      "cssEquivalent": ""
     },
     {
       "name": "clipFunc",
@@ -1142,12 +1223,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "clipFunc (function)",
       "uiControl": "code_input",
       "category": "behavior",
       "constraints": null,
       "css": null,
-      "cat": "behavior"
+      "cat": "behavior",
+      "cssEquivalent": ""
     },
     {
       "name": "clipX",
@@ -1155,14 +1237,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "clipX (number)",
       "uiControl": "slider",
       "category": "behavior",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "behavior"
+      "cat": "behavior",
+      "cssEquivalent": ""
     },
     {
       "name": "clipY",
@@ -1170,14 +1253,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "clipY (number)",
       "uiControl": "slider",
       "category": "behavior",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "behavior"
+      "cat": "behavior",
+      "cssEquivalent": ""
     },
     {
       "name": "clipWidth",
@@ -1185,14 +1269,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "clipWidth (number)",
       "uiControl": "slider",
       "category": "content",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "content"
+      "cat": "content",
+      "cssEquivalent": ""
     },
     {
       "name": "clipHeight",
@@ -1200,14 +1285,15 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "clipHeight (number)",
       "uiControl": "slider",
       "category": "behavior",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "behavior"
+      "cat": "behavior",
+      "cssEquivalent": ""
     },
     {
       "name": "angle",
@@ -1215,14 +1301,15 @@
       "required": true,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "angle (number)",
       "uiControl": "slider",
       "category": "behavior",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "behavior"
+      "cat": "behavior",
+      "cssEquivalent": ""
     },
     {
       "name": "radius",
@@ -1230,14 +1317,15 @@
       "required": true,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "radius (number)",
       "uiControl": "slider",
       "category": "behavior",
       "constraints": {
         "min": 0
       },
       "css": null,
-      "cat": "behavior"
+      "cat": "behavior",
+      "cssEquivalent": ""
     },
     {
       "name": "clockwise",
@@ -1245,12 +1333,13 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "clockwise (boolean)",
       "uiControl": "toggle",
       "category": "behavior",
       "constraints": null,
       "css": null,
-      "cat": "behavior"
+      "cat": "behavior",
+      "cssEquivalent": ""
     }
   ],
   "events": [

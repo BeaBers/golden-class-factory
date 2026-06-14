@@ -19,7 +19,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "pressed (boolean)",
       "uiControl": "toggle",
       "category": "state",
       "constraints": null
@@ -30,7 +30,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "defaultPressed (boolean)",
       "uiControl": "toggle",
       "category": "state",
       "constraints": null
@@ -41,7 +41,7 @@
       "required": false,
       "default": null,
       "allowedValues": null,
-      "description": "",
+      "description": "PressedChange (string)",
       "uiControl": "text_input",
       "category": "state",
       "constraints": null
