@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "name": "Progress",
+    "source": "Radix UI Primitives",
+    "ver": "1.0.0",
+    "date": "2026-06-14",
+    "type": "web",
+    "miner": "full_miner_v5"
+  },
+  "hierarchy": {
+    "root": "Root",
+    "parts": [
+      "Root",
+      "Indicator"
+    ],
+    "structure": {
+      "Root": {
+        "tag": "div",
+        "children": true
+      },
+      "Indicator": {
+        "tag": "div",
+        "children": true
+      }
+    }
+  },
+  "props": [
+    {
+      "name": "value",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "القيمة الحالية للعنصر",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null,
+      "css": "value (HTML attribute)"
+    },
+    {
+      "name": "getValueLabel",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "خاصية getValueLabel (نصي)",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "max",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "خاصية max (رقمي)",
+      "uiControl": "slider",
+      "category": "behavior",
+      "constraints": {
+        "min": 0
+      },
+      "css": null
+    }
+  ],
+  "events": [
+    {
+      "name": "onValueChange",
+      "params": [
+        "number"
+      ],
+      "description": "عند تغيير قيمة التقدم"
+    },
+    {
+      "name": "onClick",
+      "params": [
+        "React.MouseEvent"
+      ],
+      "description": "عند النقر على المكون"
+    },
+    {
+      "name": "onFocus",
+      "params": [
+        "React.FocusEvent"
+      ],
+      "description": "عند اكتساب التركيز"
+    },
+    {
+      "name": "onBlur",
+      "params": [
+        "React.FocusEvent"
+      ],
+      "description": "عند فقدان التركيز"
+    }
+  ]
+}

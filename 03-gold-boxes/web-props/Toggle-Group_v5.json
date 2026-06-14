@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "name": "Toggle-Group",
+    "source": "Radix UI Primitives",
+    "ver": "1.0.0",
+    "date": "2026-06-14",
+    "type": "web",
+    "miner": "full_miner_v5"
+  },
+  "hierarchy": {
+    "root": "Root",
+    "parts": [
+      "Root",
+      "Item"
+    ],
+    "structure": {
+      "Root": {
+        "tag": "div",
+        "children": true
+      },
+      "Item": {
+        "tag": "div",
+        "children": true
+      }
+    }
+  },
+  "props": [
+    {
+      "name": "disabled",
+      "type": "boolean",
+      "required": false,
+      "default": "false",
+      "allowedValues": null,
+      "description": "Whether the group is disabled from user interaction.",
+      "uiControl": "toggle",
+      "category": "state",
+      "constraints": null,
+      "css": "disabled (HTML attribute)"
+    },
+    {
+      "name": "defaultValue",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "The value of the item that is pressed when initially rendered. Use `defaultValue` if you do not need to control the state of a toggle group.",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "type",
+      "type": "string",
+      "required": true,
+      "default": null,
+      "allowedValues": null,
+      "description": "خاصية type (نصي)",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null,
+      "css": "type (HTML attribute)"
+    },
+    {
+      "name": "value",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "The controlled stateful value of the item that is pressed.",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null,
+      "css": "value (HTML attribute)"
+    },
+    {
+      "name": "dir",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "خاصية dir (نصي)",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "loop",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "خاصية loop (نصي)",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "onValueChange",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "The callback that fires when the value of the toggle group changes.",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "orientation",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "خاصية orientation (نصي)",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "rovingFocus",
+      "type": "boolean",
+      "required": false,
+      "default": "true",
+      "allowedValues": null,
+      "description": "Whether the group should maintain roving focus of its buttons.",
+      "uiControl": "toggle",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    }
+  ],
+  "events": [
+    {
+      "name": "onValueChange",
+      "params": [
+        "string|boolean"
+      ],
+      "description": "عند تغيير العنصر المحدد"
+    },
+    {
+      "name": "onClick",
+      "params": [
+        "React.MouseEvent"
+      ],
+      "description": "عند النقر على المكون"
+    },
+    {
+      "name": "onFocus",
+      "params": [
+        "React.FocusEvent"
+      ],
+      "description": "عند اكتساب التركيز"
+    },
+    {
+      "name": "onBlur",
+      "params": [
+        "React.FocusEvent"
+      ],
+      "description": "عند فقدان التركيز"
+    }
+  ]
+}

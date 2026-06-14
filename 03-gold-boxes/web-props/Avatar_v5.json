@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "name": "Avatar",
+    "source": "Radix UI Primitives",
+    "ver": "1.0.0",
+    "date": "2026-06-14",
+    "type": "web",
+    "miner": "full_miner_v5"
+  },
+  "hierarchy": {
+    "root": "Root",
+    "parts": [
+      "Root",
+      "Image",
+      "Fallback"
+    ],
+    "structure": {
+      "Root": {
+        "tag": "span",
+        "children": true
+      },
+      "Image": {
+        "tag": "span",
+        "children": true
+      },
+      "Fallback": {
+        "tag": "span",
+        "children": true
+      }
+    }
+  },
+  "props": [
+    {
+      "name": "delayMs",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "خاصية delayMs (رقمي)",
+      "uiControl": "slider",
+      "category": "behavior",
+      "constraints": {
+        "min": 0
+      },
+      "css": null
+    },
+    {
+      "name": "onLoadingStatusChange",
+      "type": "function",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "خاصية onLoadingStatusChange (دالة)",
+      "uiControl": "code_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    }
+  ],
+  "events": [
+    {
+      "name": "onClick",
+      "params": [
+        "React.MouseEvent"
+      ],
+      "description": "عند النقر على المكون"
+    },
+    {
+      "name": "onFocus",
+      "params": [
+        "React.FocusEvent"
+      ],
+      "description": "عند اكتساب التركيز"
+    },
+    {
+      "name": "onBlur",
+      "params": [
+        "React.FocusEvent"
+      ],
+      "description": "عند فقدان التركيز"
+    }
+  ]
+}

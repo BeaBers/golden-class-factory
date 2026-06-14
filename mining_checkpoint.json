@@ -18,21 +18,21 @@
     "C:\\Users\\Administrator\\Desktop\\WebProject\\01-mines\\web-mine\\radix-ui\\packages\\react\\toggle\\src\\toggle.tsx",
     "C:\\Users\\Administrator\\Desktop\\WebProject\\01-mines\\web-mine\\radix-ui\\packages\\react\\toggle-group\\src\\toggle-group.tsx",
     "C:\\Users\\Administrator\\Desktop\\WebProject\\01-mines\\web-mine\\radix-ui\\packages\\react\\tooltip\\src\\tooltip.tsx",
-    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\Arc_v2.json' mode='w' encoding='utf-8'>",
-    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\Arrow_v2.json' mode='w' encoding='utf-8'>",
-    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\Circle_v2.json' mode='w' encoding='utf-8'>",
-    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\Ellipse_v2.json' mode='w' encoding='utf-8'>",
-    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\Image_v2.json' mode='w' encoding='utf-8'>",
-    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\Label_v2.json' mode='w' encoding='utf-8'>",
-    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\Line_v2.json' mode='w' encoding='utf-8'>",
-    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\Path_v2.json' mode='w' encoding='utf-8'>",
-    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\Rect_v2.json' mode='w' encoding='utf-8'>",
-    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\RegularPolygon_v2.json' mode='w' encoding='utf-8'>",
-    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\Ring_v2.json' mode='w' encoding='utf-8'>",
-    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\Star_v2.json' mode='w' encoding='utf-8'>",
-    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\Text_v2.json' mode='w' encoding='utf-8'>",
-    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\TextPath_v2.json' mode='w' encoding='utf-8'>",
-    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\Wedge_v2.json' mode='w' encoding='utf-8'>"
+    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\Arc_v5.json' mode='w' encoding='utf-8'>",
+    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\Arrow_v5.json' mode='w' encoding='utf-8'>",
+    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\Circle_v5.json' mode='w' encoding='utf-8'>",
+    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\Ellipse_v5.json' mode='w' encoding='utf-8'>",
+    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\Image_v5.json' mode='w' encoding='utf-8'>",
+    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\Label_v5.json' mode='w' encoding='utf-8'>",
+    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\Line_v5.json' mode='w' encoding='utf-8'>",
+    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\Path_v5.json' mode='w' encoding='utf-8'>",
+    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\Rect_v5.json' mode='w' encoding='utf-8'>",
+    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\RegularPolygon_v5.json' mode='w' encoding='utf-8'>",
+    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\Ring_v5.json' mode='w' encoding='utf-8'>",
+    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\Star_v5.json' mode='w' encoding='utf-8'>",
+    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\Text_v5.json' mode='w' encoding='utf-8'>",
+    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\TextPath_v5.json' mode='w' encoding='utf-8'>",
+    "<_io.TextIOWrapper name='C:\\\\Users\\\\Administrator\\\\Desktop\\\\WebProject\\\\03-gold-boxes\\\\design-props\\\\Wedge_v5.json' mode='w' encoding='utf-8'>"
   ],
   "extracted": [
     "accordion",
@@ -68,18 +68,5 @@
     "Text",
     "TextPath",
     "Wedge"
-  ],
-  "enrichment": {
-    "completed_at": "2026-06-14 18:17:43",
-    "files_modified": 33,
-    "total_props": 1522
-  },
-  "status": "completed",
-  "completion_date": "2026-06-14 18:17:43",
-  "total_files_processed": 33,
-  "total_components_extracted": 33,
-  "total_props": 1522,
-  "total_events": 252,
-  "quality_score": 0.0,
-  "next_phase": "building"
+  ]
 }

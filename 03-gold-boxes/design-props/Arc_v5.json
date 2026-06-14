@@ -1,0 +1,1289 @@
+{
+  "meta": {
+    "name": "Arc",
+    "source": "Konva.js",
+    "ver": "10.3.0",
+    "date": "2026-06-14",
+    "type": "design",
+    "miner": "full_miner_v5"
+  },
+  "props": [
+    {
+      "name": "height",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "ارتفاع العنصر بالبكسل",
+      "uiControl": "slider",
+      "category": "dimension",
+      "constraints": {
+        "min": 0
+      },
+      "css": "height"
+    },
+    {
+      "name": "offset",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "نقطة الارتكاز (transform-origin)",
+      "uiControl": "text_input",
+      "category": "dimension",
+      "constraints": null,
+      "css": "transform-origin"
+    },
+    {
+      "name": "offsetX",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "نقطة الارتكاز الأفقية",
+      "uiControl": "slider",
+      "category": "dimension",
+      "constraints": {
+        "min": 0
+      },
+      "css": "transform-origin (X)"
+    },
+    {
+      "name": "offsetY",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "نقطة الارتكاز الرأسية",
+      "uiControl": "slider",
+      "category": "dimension",
+      "constraints": {
+        "min": 0
+      },
+      "css": "transform-origin (Y)"
+    },
+    {
+      "name": "width",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "عرض العنصر بالبكسل",
+      "uiControl": "slider",
+      "category": "dimension",
+      "constraints": {
+        "min": 0
+      },
+      "css": "width"
+    },
+    {
+      "name": "x",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "الإحداثي الأفقي (X) للعنصر من الزاوية اليسرى",
+      "uiControl": "slider",
+      "category": "dimension",
+      "constraints": {
+        "min": 0
+      },
+      "css": "left"
+    },
+    {
+      "name": "y",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "الإحداثي الرأسي (Y) للعنصر من الزاوية العلوية",
+      "uiControl": "slider",
+      "category": "dimension",
+      "constraints": {
+        "min": 0
+      },
+      "css": "top"
+    },
+    {
+      "name": "dash",
+      "type": "array",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "نمط الخط المتقطع (مصفوفة أرقام)",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "stroke-dasharray"
+    },
+    {
+      "name": "dashEnabled",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "تفعيل نمط الخط المتقطع",
+      "uiControl": "toggle",
+      "category": "visual",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "dashOffset",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "إزاحة بداية نمط الخط المتقطع",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "stroke-dashoffset"
+    },
+    {
+      "name": "fill",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "لون تعبئة الخلفية",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "background-color"
+    },
+    {
+      "name": "fillAfterStrokeEnabled",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "تعبئة الشكل بعد رسم الحدود",
+      "uiControl": "toggle",
+      "category": "visual",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "fillEnabled",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "تفعيل تعبئة الشكل",
+      "uiControl": "toggle",
+      "category": "visual",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "fillLinearGradientColorStops",
+      "type": "array",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "نقاط توقف ألوان التدرج الخطي",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "background: linear-gradient (stops)"
+    },
+    {
+      "name": "fillLinearGradientEndPoint",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "نقطة نهاية التدرج الخطي",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "background: linear-gradient (end)"
+    },
+    {
+      "name": "fillLinearGradientEndPointX",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "X نقطة نهاية التدرج الخطي",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background: linear-gradient (end X)"
+    },
+    {
+      "name": "fillLinearGradientEndPointY",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Y نقطة نهاية التدرج الخطي",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background: linear-gradient (end Y)"
+    },
+    {
+      "name": "fillLinearGradientStartPoint",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "نقطة بداية التدرج الخطي",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "background: linear-gradient (start)"
+    },
+    {
+      "name": "fillLinearGradientStartPointX",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "X نقطة بداية التدرج الخطي",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background: linear-gradient (start X)"
+    },
+    {
+      "name": "fillLinearGradientStartPointY",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Y نقطة بداية التدرج الخطي",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background: linear-gradient (start Y)"
+    },
+    {
+      "name": "fillPatternImage",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "صورة نمط التعبئة",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "background-image"
+    },
+    {
+      "name": "fillPatternOffset",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "إزاحة نمط التعبئة",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "background-position"
+    },
+    {
+      "name": "fillPatternOffsetX",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "إزاحة نمط التعبئة أفقياً",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background-position (X)"
+    },
+    {
+      "name": "fillPatternOffsetY",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "إزاحة نمط التعبئة رأسياً",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background-position (Y)"
+    },
+    {
+      "name": "fillPatternRepeat",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "تكرار نمط التعبئة",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "background-repeat"
+    },
+    {
+      "name": "fillPatternRotation",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "دوران نمط التعبئة",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background (rotation)"
+    },
+    {
+      "name": "fillPatternScale",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "مقياس نمط التعبئة",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "background-size"
+    },
+    {
+      "name": "fillPatternScaleX",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "مقياس نمط التعبئة أفقي",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background-size (X)"
+    },
+    {
+      "name": "fillPatternScaleY",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "مقياس نمط التعبئة رأسي",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background-size (Y)"
+    },
+    {
+      "name": "fillPatternX",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "إزاحة نمط التعبئة أفقياً",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background-position-x"
+    },
+    {
+      "name": "fillPatternY",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "إزاحة نمط التعبئة رأسياً",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background-position-y"
+    },
+    {
+      "name": "fillPriority",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "أولوية التعبئة (color/gradient/pattern)",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "background"
+    },
+    {
+      "name": "fillRadialGradientColorStops",
+      "type": "array",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "نقاط توقف ألوان التدرج الشعاعي",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "background: radial-gradient (stops)"
+    },
+    {
+      "name": "fillRadialGradientEndPoint",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "نقطة نهاية التدرج الشعاعي",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "background: radial-gradient (end)"
+    },
+    {
+      "name": "fillRadialGradientEndPointX",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "X نقطة نهاية التدرج الشعاعي",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background: radial-gradient (end X)"
+    },
+    {
+      "name": "fillRadialGradientEndPointY",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Y نقطة نهاية التدرج الشعاعي",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background: radial-gradient (end Y)"
+    },
+    {
+      "name": "fillRadialGradientEndRadius",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "نصف قطر نهاية التدرج الشعاعي",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background: radial-gradient (end radius)"
+    },
+    {
+      "name": "fillRadialGradientStartPoint",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "نقطة بداية التدرج الشعاعي",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "background: radial-gradient (start)"
+    },
+    {
+      "name": "fillRadialGradientStartPointX",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "X نقطة بداية التدرج الشعاعي",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background: radial-gradient (start X)"
+    },
+    {
+      "name": "fillRadialGradientStartPointY",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "Y نقطة بداية التدرج الشعاعي",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background: radial-gradient (start Y)"
+    },
+    {
+      "name": "fillRadialGradientStartRadius",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "نصف قطر بداية التدرج الشعاعي",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "background: radial-gradient (start radius)"
+    },
+    {
+      "name": "fillRule",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "قاعدة التعبئة (nonzero/evenodd)",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "clip-rule"
+    },
+    {
+      "name": "filters",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "مرشحات Canvas (blur, brightness, etc.)",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "filter (CSS functions)"
+    },
+    {
+      "name": "hitStrokeWidth",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "عرض منطقة الاصطدام للحدود",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "lineCap",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "شكل نهاية الخط (butt/round/square)",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "stroke-linecap"
+    },
+    {
+      "name": "lineJoin",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "شكل التقاء الخطوط (miter/round/bevel)",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "stroke-linejoin"
+    },
+    {
+      "name": "miterLimit",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "الحد الأقصى لزاوية miter",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "stroke-miterlimit"
+    },
+    {
+      "name": "opacity",
+      "type": "number",
+      "required": false,
+      "default": 1,
+      "allowedValues": null,
+      "description": "درجة الشفافية (0=شفاف تماماً، 1=معتم)",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "opacity"
+    },
+    {
+      "name": "shadowBlur",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "مقدار ضبابية الظل بالبكسل",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "box-shadow-blur-radius"
+    },
+    {
+      "name": "shadowColor",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "لون الظل",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "box-shadow-color"
+    },
+    {
+      "name": "shadowEnabled",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "تفعيل الظل",
+      "uiControl": "toggle",
+      "category": "visual",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "shadowForStrokeEnabled",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "تفعيل الظل للحدود",
+      "uiControl": "toggle",
+      "category": "visual",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "shadowOffset",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "خاصية shadowOffset (نصي)",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "box-shadow-offset"
+    },
+    {
+      "name": "shadowOffsetX",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "إزاحة الظل أفقياً بالبكسل",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "box-shadow (offset X)"
+    },
+    {
+      "name": "shadowOffsetY",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "إزاحة الظل رأسياً بالبكسل",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "box-shadow (offset Y)"
+    },
+    {
+      "name": "shadowOpacity",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "شفافية الظل",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "box-shadow-opacity"
+    },
+    {
+      "name": "stroke",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "لون الحدود الخارجية",
+      "uiControl": "text_input",
+      "category": "visual",
+      "constraints": null,
+      "css": "border-color"
+    },
+    {
+      "name": "strokeEnabled",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "تفعيل رسم الحدود",
+      "uiControl": "toggle",
+      "category": "visual",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "strokeHitEnabled",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "تمكين اصطدام الحدود",
+      "uiControl": "toggle",
+      "category": "visual",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "strokeScaleEnabled",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "تمكين تكبير/تصغير الحدود",
+      "uiControl": "toggle",
+      "category": "visual",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "strokeWidth",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "سماكة الحدود الخارجية بالبكسل",
+      "uiControl": "slider",
+      "category": "visual",
+      "constraints": {
+        "min": 0
+      },
+      "css": "border-width"
+    },
+    {
+      "name": "visible",
+      "type": "boolean",
+      "required": false,
+      "default": true,
+      "allowedValues": null,
+      "description": "التحكم في ظهور/إخفاء العنصر (الافتراضي: True)",
+      "uiControl": "toggle",
+      "category": "visual",
+      "constraints": null,
+      "css": "visibility"
+    },
+    {
+      "name": "rotation",
+      "type": "number",
+      "required": false,
+      "default": 0,
+      "allowedValues": null,
+      "description": "زاوية الدوران بالدرجات",
+      "uiControl": "slider",
+      "category": "transform",
+      "constraints": {
+        "min": 0
+      },
+      "css": "transform: rotate(Ndeg)"
+    },
+    {
+      "name": "rotationDeg",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "زاوية الدوران بالدرجات",
+      "uiControl": "slider",
+      "category": "transform",
+      "constraints": {
+        "min": 0
+      },
+      "css": "transform: rotate(Ndeg)"
+    },
+    {
+      "name": "scale",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "مقياس التكبير/التصغير الكلي",
+      "uiControl": "text_input",
+      "category": "transform",
+      "constraints": null,
+      "css": "transform: scale(N)"
+    },
+    {
+      "name": "scaleX",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "مقياس التكبير/التصغير الأفقي",
+      "uiControl": "slider",
+      "category": "transform",
+      "constraints": {
+        "min": 0
+      },
+      "css": "transform: scaleX(N)"
+    },
+    {
+      "name": "scaleY",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "مقياس التكبير/التصغير الرأسي",
+      "uiControl": "slider",
+      "category": "transform",
+      "constraints": {
+        "min": 0
+      },
+      "css": "transform: scaleY(N)"
+    },
+    {
+      "name": "skewX",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "إمالة أفقية بالدرجات",
+      "uiControl": "slider",
+      "category": "transform",
+      "constraints": {
+        "min": 0
+      },
+      "css": "transform: skewX(Ndeg)"
+    },
+    {
+      "name": "skewY",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "إمالة رأسية بالدرجات",
+      "uiControl": "slider",
+      "category": "transform",
+      "constraints": {
+        "min": 0
+      },
+      "css": "transform: skewY(Ndeg)"
+    },
+    {
+      "name": "dragBoundFunc",
+      "type": "function",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "دالة تحديد حدود السحب",
+      "uiControl": "code_input",
+      "category": "interaction",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "dragDistance",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "المسافة الدنيا قبل بدء السحب",
+      "uiControl": "slider",
+      "category": "interaction",
+      "constraints": {
+        "min": 0
+      },
+      "css": null
+    },
+    {
+      "name": "draggable",
+      "type": "boolean",
+      "required": false,
+      "default": false,
+      "allowedValues": null,
+      "description": "السماح بسحب العنصر بالماوس (الافتراضي: False)",
+      "uiControl": "toggle",
+      "category": "interaction",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "hitFunc",
+      "type": "function",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "دالة رسم مخصصة لمنطقة الاصطدام",
+      "uiControl": "code_input",
+      "category": "interaction",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "listening",
+      "type": "boolean",
+      "required": false,
+      "default": true,
+      "allowedValues": null,
+      "description": "الاستماع للأحداث (true/false) (الافتراضي: True)",
+      "uiControl": "toggle",
+      "category": "interaction",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "preventDefault",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "منع السلوك الافتراضي",
+      "uiControl": "toggle",
+      "category": "interaction",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "id",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "معرف فريد للعنصر (HTML id)",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null,
+      "css": "id (HTML attribute)"
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "اسم العنصر (يُستخدم للنماذج)",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null,
+      "css": "name (HTML attribute)"
+    },
+    {
+      "name": "angle",
+      "type": "number",
+      "required": true,
+      "default": null,
+      "allowedValues": null,
+      "description": "خاصية angle (رقمي)",
+      "uiControl": "slider",
+      "category": "behavior",
+      "constraints": {
+        "min": 0
+      },
+      "css": null
+    },
+    {
+      "name": "clearBeforeDraw",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "مسح القماش قبل الرسم",
+      "uiControl": "toggle",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "clipFunc",
+      "type": "function",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "دالة قص مخصصة",
+      "uiControl": "code_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "clipHeight",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "ارتفاع مساحة القص",
+      "uiControl": "slider",
+      "category": "behavior",
+      "constraints": {
+        "min": 0
+      },
+      "css": "clip-path (height)"
+    },
+    {
+      "name": "clipWidth",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "عرض مساحة القص",
+      "uiControl": "slider",
+      "category": "behavior",
+      "constraints": {
+        "min": 0
+      },
+      "css": "clip-path (width)"
+    },
+    {
+      "name": "clipX",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "إحداثي X لمساحة القص",
+      "uiControl": "slider",
+      "category": "behavior",
+      "constraints": {
+        "min": 0
+      },
+      "css": "clip-path (X)"
+    },
+    {
+      "name": "clipY",
+      "type": "number",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "إحداثي Y لمساحة القص",
+      "uiControl": "slider",
+      "category": "behavior",
+      "constraints": {
+        "min": 0
+      },
+      "css": "clip-path (Y)"
+    },
+    {
+      "name": "clockwise",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "خاصية clockwise (منطقي)",
+      "uiControl": "toggle",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "globalCompositeOperation",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "طريقة مزج الألوان مع الخلفية",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": "mix-blend-mode"
+    },
+    {
+      "name": "innerRadius",
+      "type": "number",
+      "required": true,
+      "default": null,
+      "allowedValues": null,
+      "description": "خاصية innerRadius (رقمي)",
+      "uiControl": "slider",
+      "category": "behavior",
+      "constraints": {
+        "min": 0
+      },
+      "css": null
+    },
+    {
+      "name": "outerRadius",
+      "type": "number",
+      "required": true,
+      "default": null,
+      "allowedValues": null,
+      "description": "خاصية outerRadius (رقمي)",
+      "uiControl": "slider",
+      "category": "behavior",
+      "constraints": {
+        "min": 0
+      },
+      "css": null
+    },
+    {
+      "name": "perfectDrawEnabled",
+      "type": "boolean",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "تحسين جودة الرسم",
+      "uiControl": "toggle",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "sceneFunc",
+      "type": "function",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "دالة رسم مخصصة للمشهد",
+      "uiControl": "code_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    }
+  ],
+  "events": [
+    {
+      "name": "click",
+      "params": [
+        "MouseEvent"
+      ],
+      "description": "عند النقر على الشكل"
+    },
+    {
+      "name": "dblclick",
+      "params": [
+        "MouseEvent"
+      ],
+      "description": "عند النقر المزدوج"
+    },
+    {
+      "name": "mousedown",
+      "params": [
+        "MouseEvent"
+      ],
+      "description": "عند الضغط على زر الفأرة"
+    },
+    {
+      "name": "mouseup",
+      "params": [
+        "MouseEvent"
+      ],
+      "description": "عند رفع زر الفأرة"
+    },
+    {
+      "name": "mouseenter",
+      "params": [
+        "MouseEvent"
+      ],
+      "description": "عند دخول مؤشر الفأرة"
+    },
+    {
+      "name": "mouseleave",
+      "params": [
+        "MouseEvent"
+      ],
+      "description": "عند خروج مؤشر الفأرة"
+    },
+    {
+      "name": "touchstart",
+      "params": [
+        "TouchEvent"
+      ],
+      "description": "عند لمس الشاشة"
+    },
+    {
+      "name": "touchend",
+      "params": [
+        "TouchEvent"
+      ],
+      "description": "عند رفع اللمس"
+    },
+    {
+      "name": "dragstart",
+      "params": [
+        "DragEvent"
+      ],
+      "description": "عند بدء السحب"
+    },
+    {
+      "name": "dragmove",
+      "params": [
+        "DragEvent"
+      ],
+      "description": "أثناء السحب"
+    },
+    {
+      "name": "dragend",
+      "params": [
+        "DragEvent"
+      ],
+      "description": "عند انتهاء السحب"
+    },
+    {
+      "name": "transform",
+      "params": [
+        "Event"
+      ],
+      "description": "عند التحويل (تكبير/تدوير)"
+    },
+    {
+      "name": "mousewheel",
+      "params": [
+        "WheelEvent"
+      ],
+      "description": "عند تدوير عجلة الفأرة"
+    },
+    {
+      "name": "contextmenu",
+      "params": [
+        "MouseEvent"
+      ],
+      "description": "عند النقر بزر الفأرة الأيمن"
+    }
+  ],
+  "caps": {
+    "freeform": false,
+    "path": false,
+    "corners": false,
+    "blend": true,
+    "grad": true
+  }
+}

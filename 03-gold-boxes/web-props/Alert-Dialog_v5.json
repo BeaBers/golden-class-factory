@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "name": "Alert-Dialog",
+    "source": "Radix UI Primitives",
+    "ver": "1.0.0",
+    "date": "2026-06-14",
+    "type": "web",
+    "miner": "full_miner_v5"
+  },
+  "hierarchy": {
+    "root": "Root",
+    "parts": [
+      "Root",
+      "Trigger",
+      "Portal",
+      "Overlay",
+      "Content",
+      "Title",
+      "Description",
+      "Cancel",
+      "Action"
+    ],
+    "structure": {
+      "Root": {
+        "tag": "div",
+        "children": true
+      },
+      "Trigger": {
+        "tag": "div",
+        "children": true
+      },
+      "Portal": {
+        "tag": "div",
+        "children": true
+      },
+      "Overlay": {
+        "tag": "div",
+        "children": true
+      },
+      "Content": {
+        "tag": "div",
+        "children": true
+      },
+      "Title": {
+        "tag": "div",
+        "children": true
+      },
+      "Description": {
+        "tag": "div",
+        "children": true
+      },
+      "Cancel": {
+        "tag": "div",
+        "children": true
+      },
+      "Action": {
+        "tag": "div",
+        "children": true
+      }
+    }
+  },
+  "props": [],
+  "events": [
+    {
+      "name": "onOpenChange",
+      "params": [
+        "boolean"
+      ],
+      "description": "عند تغيير حالة الفتح/الإغلاق"
+    },
+    {
+      "name": "onClick",
+      "params": [
+        "React.MouseEvent"
+      ],
+      "description": "عند النقر على المكون"
+    },
+    {
+      "name": "onFocus",
+      "params": [
+        "React.FocusEvent"
+      ],
+      "description": "عند اكتساب التركيز"
+    },
+    {
+      "name": "onBlur",
+      "params": [
+        "React.FocusEvent"
+      ],
+      "description": "عند فقدان التركيز"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "name": "Accordion",
+    "source": "Radix UI Primitives",
+    "ver": "1.0.0",
+    "date": "2026-06-14",
+    "type": "web",
+    "miner": "full_miner_v5"
+  },
+  "hierarchy": {
+    "root": "Root",
+    "parts": [
+      "Root",
+      "Item",
+      "Header",
+      "Trigger",
+      "Content"
+    ],
+    "structure": {
+      "Root": {
+        "tag": "div",
+        "children": true
+      },
+      "Item": {
+        "tag": "div",
+        "children": true
+      },
+      "Header": {
+        "tag": "div",
+        "children": true
+      },
+      "Trigger": {
+        "tag": "div",
+        "children": true
+      },
+      "Content": {
+        "tag": "div",
+        "children": true
+      }
+    }
+  },
+  "props": [
+    {
+      "name": "disabled",
+      "type": "boolean",
+      "required": false,
+      "default": "false",
+      "allowedValues": null,
+      "description": "Whether or not an accordion is disabled from user interaction.",
+      "uiControl": "toggle",
+      "category": "state",
+      "constraints": null,
+      "css": "disabled (HTML attribute)"
+    },
+    {
+      "name": "defaultValue",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "The value of the item whose content is expanded when the accordion is initially rendered. Use `defaultValue` if you do not need to control the state of an accordion.",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "type",
+      "type": "string",
+      "required": true,
+      "default": null,
+      "allowedValues": null,
+      "description": "خاصية type (نصي)",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null,
+      "css": "type (HTML attribute)"
+    },
+    {
+      "name": "value",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "The controlled stateful value of the accordion item whose content is expanded.",
+      "uiControl": "text_input",
+      "category": "content",
+      "constraints": null,
+      "css": "value (HTML attribute)"
+    },
+    {
+      "name": "collapsible",
+      "type": "boolean",
+      "required": false,
+      "default": "false",
+      "allowedValues": null,
+      "description": "Whether an accordion item can be collapsed after it has been opened.",
+      "uiControl": "toggle",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "dir",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "The language read direction.",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "onValueChange",
+      "type": "string",
+      "required": false,
+      "default": null,
+      "allowedValues": null,
+      "description": "The callback that fires when the state of the accordion changes.",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    },
+    {
+      "name": "orientation",
+      "type": "string",
+      "required": false,
+      "default": "vertical",
+      "allowedValues": null,
+      "description": "The layout in which the Accordion operates.",
+      "uiControl": "text_input",
+      "category": "behavior",
+      "constraints": null,
+      "css": null
+    }
+  ],
+  "events": [
+    {
+      "name": "onValueChange",
+      "params": [
+        "string[]"
+      ],
+      "description": "عند تغيير العنصر الموسع"
+    },
+    {
+      "name": "onClick",
+      "params": [
+        "React.MouseEvent"
+      ],
+      "description": "عند النقر على المكون"
+    },
+    {
+      "name": "onFocus",
+      "params": [
+        "React.FocusEvent"
+      ],
+      "description": "عند اكتساب التركيز"
+    },
+    {
+      "name": "onBlur",
+      "params": [
+        "React.FocusEvent"
+      ],
+      "description": "عند فقدان التركيز"
+    }
+  ]
+}

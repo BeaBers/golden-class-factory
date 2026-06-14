@@ -1,0 +1,134 @@
+======================================================================
+GOLDEN CLASS FACTORY - v5 QUALITY REPORT
+======================================================================
+التاريخ: 2026-06-14 21:25:50
+
+صناديق الويب: 18
+صناديق التصميم: 15
+
+نتائج التحقق من الجودة:
+----------------------------------------------------------------------
+
+  Accordion_v5.json:
+    INFO: INFO: 5/8 بلا CSS (خصائص Canvas)
+    PASS: PASS: 8 خاصية، 3 قيمة افتراضية، 4 حدث
+
+  Alert-Dialog_v5.json:
+    INFO: INFO: Alert-Dialog ليس له خاصيات (موروث من مكون آخر)
+    PASS: PASS: 0 خاصية، 0 قيمة افتراضية، 4 حدث
+
+  Arc_v5.json:
+    PASS: PASS: 90 خاصية، 5 قيمة افتراضية، 14 حدث
+
+  Arrow_v5.json:
+    PASS: PASS: 93 خاصية، 5 قيمة افتراضية، 14 حدث
+
+  Avatar_v5.json:
+    PASS: PASS: 2 خاصية، 0 قيمة افتراضية، 3 حدث
+
+  Checkbox_v5.json:
+    INFO: INFO: 6/10 بلا CSS (خصائص Canvas)
+    PASS: PASS: 10 خاصية، 0 قيمة افتراضية، 4 حدث
+
+  Circle_v5.json:
+    PASS: PASS: 87 خاصية، 5 قيمة افتراضية، 14 حدث
+
+  Collapsible_v5.json:
+    INFO: INFO: 5/6 بلا CSS (خصائص Canvas)
+    PASS: PASS: 6 خاصية، 0 قيمة افتراضية، 4 حدث
+
+  Dialog_v5.json:
+    INFO: INFO: 10/10 بلا CSS (خصائص Canvas)
+    PASS: PASS: 10 خاصية، 1 قيمة افتراضية، 5 حدث
+
+  Ellipse_v5.json:
+    PASS: PASS: 88 خاصية، 5 قيمة افتراضية، 14 حدث
+
+  Hover-Card_v5.json:
+    INFO: INFO: 11/12 بلا CSS (خصائص Canvas)
+    PASS: PASS: 12 خاصية، 0 قيمة افتراضية، 4 حدث
+
+  Image_v5.json:
+    PASS: PASS: 89 خاصية، 6 قيمة افتراضية، 14 حدث
+
+  Label_v5.json:
+    PASS: PASS: 86 خاصية، 5 قيمة افتراضية، 14 حدث
+
+  Line_v5.json:
+    PASS: PASS: 89 خاصية، 5 قيمة افتراضية، 14 حدث
+
+  Path_v5.json:
+    PASS: PASS: 87 خاصية، 5 قيمة افتراضية، 14 حدث
+
+  Popover_v5.json:
+    INFO: INFO: 9/10 بلا CSS (خصائص Canvas)
+    PASS: PASS: 10 خاصية، 0 قيمة افتراضية، 4 حدث
+
+  Progress_v5.json:
+    PASS: PASS: 3 خاصية، 0 قيمة افتراضية، 4 حدث
+
+  Radio-Group_v5.json:
+    INFO: INFO: 6/10 بلا CSS (خصائص Canvas)
+    PASS: PASS: 10 خاصية، 0 قيمة افتراضية، 4 حدث
+
+  Rect_v5.json:
+    PASS: PASS: 87 خاصية، 6 قيمة افتراضية، 14 حدث
+
+  RegularPolygon_v5.json:
+    PASS: PASS: 89 خاصية، 6 قيمة افتراضية، 14 حدث
+
+  Ring_v5.json:
+    PASS: PASS: 88 خاصية، 5 قيمة افتراضية، 14 حدث
+
+  Select_v5.json:
+    INFO: INFO: 17/24 بلا CSS (خصائص Canvas)
+    PASS: PASS: 24 خاصية، 0 قيمة افتراضية، 5 حدث
+
+  Slider_v5.json:
+    INFO: INFO: 13/16 بلا CSS (خصائص Canvas)
+    PASS: PASS: 16 خاصية، 0 قيمة افتراضية، 4 حدث
+
+  Star_v5.json:
+    PASS: PASS: 89 خاصية، 5 قيمة افتراضية، 14 حدث
+
+  Switch_v5.json:
+    INFO: INFO: 5/9 بلا CSS (خصائص Canvas)
+    PASS: PASS: 9 خاصية، 0 قيمة افتراضية، 4 حدث
+
+  Tabs_v5.json:
+    INFO: INFO: 6/8 بلا CSS (خصائص Canvas)
+    PASS: PASS: 8 خاصية، 2 قيمة افتراضية، 4 حدث
+
+  TextPath_v5.json:
+    PASS: PASS: 99 خاصية، 5 قيمة افتراضية، 14 حدث
+
+  Text_v5.json:
+    PASS: PASS: 101 خاصية، 5 قيمة افتراضية، 14 حدث
+
+  Toast_v5.json:
+    INFO: INFO: 20/21 بلا CSS (خصائص Canvas)
+    PASS: PASS: 21 خاصية، 6 قيمة افتراضية، 4 حدث
+
+  Toggle-Group_v5.json:
+    INFO: INFO: 6/9 بلا CSS (خصائص Canvas)
+    PASS: PASS: 9 خاصية، 2 قيمة افتراضية، 4 حدث
+
+  Toggle_v5.json:
+    PASS: PASS: 3 خاصية، 1 قيمة افتراضية، 4 حدث
+
+  Tooltip_v5.json:
+    INFO: INFO: 10/11 بلا CSS (خصائص Canvas)
+    PASS: PASS: 11 خاصية، 3 قيمة افتراضية، 4 حدث
+
+  Wedge_v5.json:
+    PASS: PASS: 89 خاصية، 5 قيمة افتراضية، 14 حدث
+
+======================================================================
+SUMMARY:
+  Total boxes: 33
+  No critical issues: 33
+  Checked: 33
+  Quality score: 100.0%
+======================================================================
+  Total extracted props: 1523
+======================================================================
