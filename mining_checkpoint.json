@@ -70,8 +70,16 @@
     "Wedge"
   ],
   "enrichment": {
-    "completed_at": "2026-06-14 17:47:51",
-    "files_modified": 15,
+    "completed_at": "2026-06-14 18:17:43",
+    "files_modified": 33,
     "total_props": 1522
-  }
+  },
+  "status": "completed",
+  "completion_date": "2026-06-14 18:17:43",
+  "total_files_processed": 33,
+  "total_components_extracted": 33,
+  "total_props": 1522,
+  "total_events": 252,
+  "quality_score": 0.0,
+  "next_phase": "building"
 }

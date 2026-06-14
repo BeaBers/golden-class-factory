@@ -1,0 +1,549 @@
+{
+  "files": [
+    {
+      "name": "Accordion_v2.json",
+      "category": "web",
+      "props": 8,
+      "events": 4,
+      "size": 3297,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 0,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "No ARIA/accessibility props found"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "Alert-Dialog_v2.json",
+      "category": "web",
+      "props": 0,
+      "events": 4,
+      "size": 1000,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 0,
+      "critical": [
+        "Zero properties extracted"
+      ],
+      "warnings": [],
+      "suggestions": [
+        "No ARIA/accessibility props found"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "Avatar_v2.json",
+      "category": "web",
+      "props": 2,
+      "events": 3,
+      "size": 1369,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 0,
+      "critical": [],
+      "warnings": [
+        "Only 2 properties"
+      ],
+      "suggestions": [
+        "No ARIA/accessibility props found"
+      ],
+      "quality": "warning"
+    },
+    {
+      "name": "Checkbox_v2.json",
+      "category": "web",
+      "props": 10,
+      "events": 4,
+      "size": 3879,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 0,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "No ARIA/accessibility props found"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "Collapsible_v2.json",
+      "category": "web",
+      "props": 6,
+      "events": 3,
+      "size": 2492,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 0,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "No ARIA/accessibility props found"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "Dialog_v2.json",
+      "category": "web",
+      "props": 10,
+      "events": 4,
+      "size": 3888,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 0,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "No ARIA/accessibility props found"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "Hover-Card_v2.json",
+      "category": "web",
+      "props": 12,
+      "events": 4,
+      "size": 4432,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 0,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "No ARIA/accessibility props found"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "Popover_v2.json",
+      "category": "web",
+      "props": 10,
+      "events": 4,
+      "size": 3894,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 0,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "No ARIA/accessibility props found"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "Progress_v2.json",
+      "category": "web",
+      "props": 3,
+      "events": 4,
+      "size": 1761,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 0,
+      "critical": [],
+      "warnings": [
+        "Only 3 properties"
+      ],
+      "suggestions": [
+        "No ARIA/accessibility props found"
+      ],
+      "quality": "warning"
+    },
+    {
+      "name": "Radio-Group_v2.json",
+      "category": "web",
+      "props": 10,
+      "events": 4,
+      "size": 3913,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 0,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "No ARIA/accessibility props found"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "Select_v2.json",
+      "category": "web",
+      "props": 24,
+      "events": 4,
+      "size": 8031,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 0,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "No ARIA/accessibility props found"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "Slider_v2.json",
+      "category": "web",
+      "props": 15,
+      "events": 4,
+      "size": 5412,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 0,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "No ARIA/accessibility props found"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "Switch_v2.json",
+      "category": "web",
+      "props": 9,
+      "events": 5,
+      "size": 3721,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 0,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "No ARIA/accessibility props found"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "Tabs_v2.json",
+      "category": "web",
+      "props": 8,
+      "events": 4,
+      "size": 3552,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 0,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "No ARIA/accessibility props found"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "Toast_v2.json",
+      "category": "web",
+      "props": 21,
+      "events": 3,
+      "size": 6872,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 0,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "No ARIA/accessibility props found"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "Toggle-Group_v2.json",
+      "category": "web",
+      "props": 9,
+      "events": 5,
+      "size": 3743,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 0,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "No ARIA/accessibility props found"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "Toggle_v2.json",
+      "category": "web",
+      "props": 3,
+      "events": 5,
+      "size": 2014,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 0,
+      "critical": [],
+      "warnings": [
+        "Only 3 properties"
+      ],
+      "suggestions": [
+        "No ARIA/accessibility props found"
+      ],
+      "quality": "warning"
+    },
+    {
+      "name": "Tooltip_v2.json",
+      "category": "web",
+      "props": 11,
+      "events": 4,
+      "size": 4266,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 0,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "No ARIA/accessibility props found"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "Arc_v2.json",
+      "category": "design",
+      "props": 90,
+      "events": 12,
+      "size": 37016,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 23,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "23/90 props missing cssEquivalent"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "Arrow_v2.json",
+      "category": "design",
+      "props": 93,
+      "events": 12,
+      "size": 38112,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 27,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "27/93 props missing cssEquivalent"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "Circle_v2.json",
+      "category": "design",
+      "props": 87,
+      "events": 12,
+      "size": 35903,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 20,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "20/87 props missing cssEquivalent"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "Ellipse_v2.json",
+      "category": "design",
+      "props": 88,
+      "events": 12,
+      "size": 36295,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 20,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "20/88 props missing cssEquivalent"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "Image_v2.json",
+      "category": "design",
+      "props": 89,
+      "events": 12,
+      "size": 36622,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 20,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "20/89 props missing cssEquivalent"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "Label_v2.json",
+      "category": "design",
+      "props": 86,
+      "events": 12,
+      "size": 35503,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 20,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "20/86 props missing cssEquivalent"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "Line_v2.json",
+      "category": "design",
+      "props": 89,
+      "events": 12,
+      "size": 36575,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 23,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "23/89 props missing cssEquivalent"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "Path_v2.json",
+      "category": "design",
+      "props": 87,
+      "events": 12,
+      "size": 35868,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 20,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "20/87 props missing cssEquivalent"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "Rect_v2.json",
+      "category": "design",
+      "props": 87,
+      "events": 12,
+      "size": 35880,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 20,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "20/87 props missing cssEquivalent"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "RegularPolygon_v2.json",
+      "category": "design",
+      "props": 89,
+      "events": 12,
+      "size": 36655,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 21,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "21/89 props missing cssEquivalent"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "Ring_v2.json",
+      "category": "design",
+      "props": 88,
+      "events": 12,
+      "size": 36264,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 22,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "22/88 props missing cssEquivalent"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "Star_v2.json",
+      "category": "design",
+      "props": 89,
+      "events": 12,
+      "size": 36641,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 23,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "23/89 props missing cssEquivalent"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "TextPath_v2.json",
+      "category": "design",
+      "props": 99,
+      "events": 12,
+      "size": 40367,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 22,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "22/99 props missing cssEquivalent"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "Text_v2.json",
+      "category": "design",
+      "props": 101,
+      "events": 12,
+      "size": 41152,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 22,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "22/101 props missing cssEquivalent"
+      ],
+      "quality": "suggestion"
+    },
+    {
+      "name": "Wedge_v2.json",
+      "category": "design",
+      "props": 89,
+      "events": 12,
+      "size": 36654,
+      "no_desc": 0,
+      "no_ui": 0,
+      "no_css": 21,
+      "critical": [],
+      "warnings": [],
+      "suggestions": [
+        "21/89 props missing cssEquivalent"
+      ],
+      "quality": "suggestion"
+    }
+  ],
+  "summary": {
+    "total": 33,
+    "critical": 1,
+    "warnings": 3,
+    "suggestions": 33,
+    "perfect": 0,
+    "quality_score": 87.9,
+    "perfect_no_critical": 29
+  }
+}

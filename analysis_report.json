@@ -1,0 +1,545 @@
+{
+  "web_components": [
+    {
+      "name": "Accordion",
+      "file": "Accordion_v2.json",
+      "props_count": 8,
+      "events_count": 4,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 0,
+      "file_size_kb": 3.3,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "perfect",
+      "issues": [
+        "none"
+      ]
+    },
+    {
+      "name": "Alert-Dialog",
+      "file": "Alert-Dialog_v2.json",
+      "props_count": 0,
+      "events_count": 4,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 0,
+      "file_size_kb": 1.0,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "perfect",
+      "issues": [
+        "none"
+      ]
+    },
+    {
+      "name": "Avatar",
+      "file": "Avatar_v2.json",
+      "props_count": 2,
+      "events_count": 3,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 0,
+      "file_size_kb": 1.4,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "perfect",
+      "issues": [
+        "none"
+      ]
+    },
+    {
+      "name": "Checkbox",
+      "file": "Checkbox_v2.json",
+      "props_count": 10,
+      "events_count": 4,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 0,
+      "file_size_kb": 3.9,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "perfect",
+      "issues": [
+        "none"
+      ]
+    },
+    {
+      "name": "Collapsible",
+      "file": "Collapsible_v2.json",
+      "props_count": 6,
+      "events_count": 3,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 0,
+      "file_size_kb": 2.5,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "perfect",
+      "issues": [
+        "none"
+      ]
+    },
+    {
+      "name": "Dialog",
+      "file": "Dialog_v2.json",
+      "props_count": 10,
+      "events_count": 4,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 0,
+      "file_size_kb": 3.9,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "perfect",
+      "issues": [
+        "none"
+      ]
+    },
+    {
+      "name": "Hover-Card",
+      "file": "Hover-Card_v2.json",
+      "props_count": 12,
+      "events_count": 4,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 0,
+      "file_size_kb": 4.4,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "perfect",
+      "issues": [
+        "none"
+      ]
+    },
+    {
+      "name": "Popover",
+      "file": "Popover_v2.json",
+      "props_count": 10,
+      "events_count": 4,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 0,
+      "file_size_kb": 3.9,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "perfect",
+      "issues": [
+        "none"
+      ]
+    },
+    {
+      "name": "Progress",
+      "file": "Progress_v2.json",
+      "props_count": 3,
+      "events_count": 4,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 0,
+      "file_size_kb": 1.8,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "perfect",
+      "issues": [
+        "none"
+      ]
+    },
+    {
+      "name": "Radio-Group",
+      "file": "Radio-Group_v2.json",
+      "props_count": 10,
+      "events_count": 4,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 0,
+      "file_size_kb": 3.9,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "perfect",
+      "issues": [
+        "none"
+      ]
+    },
+    {
+      "name": "Select",
+      "file": "Select_v2.json",
+      "props_count": 24,
+      "events_count": 4,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 0,
+      "file_size_kb": 8.0,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "perfect",
+      "issues": [
+        "none"
+      ]
+    },
+    {
+      "name": "Slider",
+      "file": "Slider_v2.json",
+      "props_count": 15,
+      "events_count": 4,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 0,
+      "file_size_kb": 5.4,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "perfect",
+      "issues": [
+        "none"
+      ]
+    },
+    {
+      "name": "Switch",
+      "file": "Switch_v2.json",
+      "props_count": 9,
+      "events_count": 5,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 0,
+      "file_size_kb": 3.7,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "perfect",
+      "issues": [
+        "none"
+      ]
+    },
+    {
+      "name": "Tabs",
+      "file": "Tabs_v2.json",
+      "props_count": 8,
+      "events_count": 4,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 0,
+      "file_size_kb": 3.6,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "perfect",
+      "issues": [
+        "none"
+      ]
+    },
+    {
+      "name": "Toast",
+      "file": "Toast_v2.json",
+      "props_count": 21,
+      "events_count": 3,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 0,
+      "file_size_kb": 6.9,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "perfect",
+      "issues": [
+        "none"
+      ]
+    },
+    {
+      "name": "Toggle-Group",
+      "file": "Toggle-Group_v2.json",
+      "props_count": 9,
+      "events_count": 5,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 0,
+      "file_size_kb": 3.7,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "perfect",
+      "issues": [
+        "none"
+      ]
+    },
+    {
+      "name": "Toggle",
+      "file": "Toggle_v2.json",
+      "props_count": 3,
+      "events_count": 5,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 0,
+      "file_size_kb": 2.0,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "perfect",
+      "issues": [
+        "none"
+      ]
+    },
+    {
+      "name": "Tooltip",
+      "file": "Tooltip_v2.json",
+      "props_count": 11,
+      "events_count": 4,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 0,
+      "file_size_kb": 4.3,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "perfect",
+      "issues": [
+        "none"
+      ]
+    }
+  ],
+  "design_shapes": [
+    {
+      "name": "Arc",
+      "file": "Arc_v2.json",
+      "props_count": 90,
+      "events_count": 12,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 78,
+      "file_size_kb": 35.5,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "needs_improve",
+      "issues": [
+        "no_css:78"
+      ]
+    },
+    {
+      "name": "Arrow",
+      "file": "Arrow_v2.json",
+      "props_count": 93,
+      "events_count": 12,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 81,
+      "file_size_kb": 36.6,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "needs_improve",
+      "issues": [
+        "no_css:81"
+      ]
+    },
+    {
+      "name": "Circle",
+      "file": "Circle_v2.json",
+      "props_count": 87,
+      "events_count": 12,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 75,
+      "file_size_kb": 34.4,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "needs_improve",
+      "issues": [
+        "no_css:75"
+      ]
+    },
+    {
+      "name": "Ellipse",
+      "file": "Ellipse_v2.json",
+      "props_count": 88,
+      "events_count": 12,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 76,
+      "file_size_kb": 34.7,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "needs_improve",
+      "issues": [
+        "no_css:76"
+      ]
+    },
+    {
+      "name": "Image",
+      "file": "Image_v2.json",
+      "props_count": 89,
+      "events_count": 12,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 76,
+      "file_size_kb": 35.1,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "needs_improve",
+      "issues": [
+        "no_css:76"
+      ]
+    },
+    {
+      "name": "Label",
+      "file": "Label_v2.json",
+      "props_count": 86,
+      "events_count": 12,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 74,
+      "file_size_kb": 34.0,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "needs_improve",
+      "issues": [
+        "no_css:74"
+      ]
+    },
+    {
+      "name": "Line",
+      "file": "Line_v2.json",
+      "props_count": 89,
+      "events_count": 12,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 77,
+      "file_size_kb": 35.1,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "needs_improve",
+      "issues": [
+        "no_css:77"
+      ]
+    },
+    {
+      "name": "Path",
+      "file": "Path_v2.json",
+      "props_count": 87,
+      "events_count": 12,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 75,
+      "file_size_kb": 34.3,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "needs_improve",
+      "issues": [
+        "no_css:75"
+      ]
+    },
+    {
+      "name": "Rect",
+      "file": "Rect_v2.json",
+      "props_count": 87,
+      "events_count": 12,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 74,
+      "file_size_kb": 34.4,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "needs_improve",
+      "issues": [
+        "no_css:74"
+      ]
+    },
+    {
+      "name": "RegularPolygon",
+      "file": "RegularPolygon_v2.json",
+      "props_count": 89,
+      "events_count": 12,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 76,
+      "file_size_kb": 35.1,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "needs_improve",
+      "issues": [
+        "no_css:76"
+      ]
+    },
+    {
+      "name": "Ring",
+      "file": "Ring_v2.json",
+      "props_count": 88,
+      "events_count": 12,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 76,
+      "file_size_kb": 34.8,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "needs_improve",
+      "issues": [
+        "no_css:76"
+      ]
+    },
+    {
+      "name": "Star",
+      "file": "Star_v2.json",
+      "props_count": 89,
+      "events_count": 12,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 77,
+      "file_size_kb": 35.1,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "needs_improve",
+      "issues": [
+        "no_css:77"
+      ]
+    },
+    {
+      "name": "TextPath",
+      "file": "TextPath_v2.json",
+      "props_count": 99,
+      "events_count": 12,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 84,
+      "file_size_kb": 38.7,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "needs_improve",
+      "issues": [
+        "no_css:84"
+      ]
+    },
+    {
+      "name": "Text",
+      "file": "Text_v2.json",
+      "props_count": 101,
+      "events_count": 12,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 86,
+      "file_size_kb": 39.5,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "needs_improve",
+      "issues": [
+        "no_css:86"
+      ]
+    },
+    {
+      "name": "Wedge",
+      "file": "Wedge_v2.json",
+      "props_count": 89,
+      "events_count": 12,
+      "empty_descriptions": 0,
+      "missing_ui_control": 0,
+      "missing_css_equivalent": 77,
+      "file_size_kb": 35.1,
+      "has_events": true,
+      "has_accessibility": false,
+      "status": "needs_improve",
+      "issues": [
+        "no_css:77"
+      ]
+    }
+  ],
+  "summary": {
+    "total_web_components": 18,
+    "total_design_shapes": 15,
+    "complete_web": 18,
+    "needs_improvement_web": 0,
+    "complete_design": 0,
+    "total_props": 1522,
+    "total_events": 252,
+    "avg_web_props": 9.5,
+    "avg_design_props": 90.1
+  }
+}

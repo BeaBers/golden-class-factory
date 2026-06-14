@@ -111,7 +111,7 @@
       "constraints": null,
       "css": null,
       "cat": "content",
-      "cssEquivalent": ""
+      "cssEquivalent": "id (HTML attribute)"
     },
     {
       "name": "name",
@@ -155,7 +155,7 @@
       "constraints": null,
       "css": null,
       "cat": "transform",
-      "cssEquivalent": ""
+      "cssEquivalent": "transform: scale(N)"
     },
     {
       "name": "scaleX",
@@ -171,7 +171,7 @@
       },
       "css": "scaleX",
       "cat": "transform",
-      "cssEquivalent": ""
+      "cssEquivalent": "transform: scaleX(N)"
     },
     {
       "name": "skewX",
@@ -187,7 +187,7 @@
       },
       "css": "skewX",
       "cat": "transform",
-      "cssEquivalent": ""
+      "cssEquivalent": "transform: skewX(Ndeg)"
     },
     {
       "name": "skewY",
@@ -203,7 +203,7 @@
       },
       "css": "skewY",
       "cat": "transform",
-      "cssEquivalent": ""
+      "cssEquivalent": "transform: skewY(Ndeg)"
     },
     {
       "name": "scaleY",
@@ -219,7 +219,7 @@
       },
       "css": "scaleY",
       "cat": "transform",
-      "cssEquivalent": ""
+      "cssEquivalent": "transform: scaleY(N)"
     },
     {
       "name": "rotation",
@@ -251,7 +251,7 @@
       },
       "css": null,
       "cat": "transform",
-      "cssEquivalent": ""
+      "cssEquivalent": "transform: rotate(Ndeg)"
     },
     {
       "name": "offset",
@@ -265,7 +265,7 @@
       "constraints": null,
       "css": null,
       "cat": "dimension",
-      "cssEquivalent": ""
+      "cssEquivalent": "transform-origin"
     },
     {
       "name": "offsetX",
@@ -281,7 +281,7 @@
       },
       "css": null,
       "cat": "dimension",
-      "cssEquivalent": ""
+      "cssEquivalent": "transform-origin (X)"
     },
     {
       "name": "offsetY",
@@ -297,7 +297,7 @@
       },
       "css": null,
       "cat": "dimension",
-      "cssEquivalent": ""
+      "cssEquivalent": "transform-origin (Y)"
     },
     {
       "name": "draggable",
@@ -369,7 +369,7 @@
       "constraints": null,
       "css": null,
       "cat": "behavior",
-      "cssEquivalent": ""
+      "cssEquivalent": "mix-blend-mode"
     },
     {
       "name": "filters",
@@ -383,7 +383,7 @@
       "constraints": null,
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "filter (CSS filter functions)"
     },
     {
       "name": "fill",
@@ -411,7 +411,7 @@
       "constraints": null,
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "background-image (pattern)"
     },
     {
       "name": "fillPatternX",
@@ -427,7 +427,7 @@
       },
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "background-position-x"
     },
     {
       "name": "fillPatternY",
@@ -443,7 +443,7 @@
       },
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "background-position-y"
     },
     {
       "name": "fillPatternOffset",
@@ -457,7 +457,7 @@
       "constraints": null,
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "background-position (pattern offset)"
     },
     {
       "name": "fillPatternOffsetX",
@@ -473,7 +473,7 @@
       },
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "background-position (pattern offset X)"
     },
     {
       "name": "fillPatternOffsetY",
@@ -489,7 +489,7 @@
       },
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "background-position (pattern offset Y)"
     },
     {
       "name": "fillPatternScale",
@@ -503,7 +503,7 @@
       "constraints": null,
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "background-size (pattern scale)"
     },
     {
       "name": "fillPatternScaleX",
@@ -519,7 +519,7 @@
       },
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "background-size (pattern width)"
     },
     {
       "name": "fillPatternScaleY",
@@ -535,7 +535,7 @@
       },
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "background-size (pattern height)"
     },
     {
       "name": "fillPatternRotation",
@@ -551,7 +551,7 @@
       },
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "background (pattern rotation)"
     },
     {
       "name": "fillPatternRepeat",
@@ -565,7 +565,7 @@
       "constraints": null,
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "background-repeat"
     },
     {
       "name": "fillLinearGradientStartPoint",
@@ -579,7 +579,7 @@
       "constraints": null,
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "background: linear-gradient (start point)"
     },
     {
       "name": "fillLinearGradientStartPointX",
@@ -595,7 +595,7 @@
       },
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "background: linear-gradient (start X)"
     },
     {
       "name": "fillLinearGradientStartPointY",
@@ -611,7 +611,7 @@
       },
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "background: linear-gradient (start Y)"
     },
     {
       "name": "fillLinearGradientEndPoint",
@@ -625,7 +625,7 @@
       "constraints": null,
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "background: linear-gradient (end point)"
     },
     {
       "name": "fillLinearGradientEndPointX",
@@ -641,7 +641,7 @@
       },
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "background: linear-gradient (end X)"
     },
     {
       "name": "fillLinearGradientEndPointY",
@@ -657,7 +657,7 @@
       },
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "background: linear-gradient (end Y)"
     },
     {
       "name": "fillLinearGradientColorStops",
@@ -671,7 +671,7 @@
       "constraints": null,
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "background: linear-gradient (color stops)"
     },
     {
       "name": "fillRadialGradientStartPoint",
@@ -685,7 +685,7 @@
       "constraints": null,
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "background: radial-gradient (start point)"
     },
     {
       "name": "fillRadialGradientStartPointX",
@@ -701,7 +701,7 @@
       },
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "background: radial-gradient (start X)"
     },
     {
       "name": "fillRadialGradientStartPointY",
@@ -717,7 +717,7 @@
       },
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "background: radial-gradient (start Y)"
     },
     {
       "name": "fillRadialGradientEndPoint",
@@ -731,7 +731,7 @@
       "constraints": null,
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "background: radial-gradient (end point)"
     },
     {
       "name": "fillRadialGradientEndPointX",
@@ -747,7 +747,7 @@
       },
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "background: radial-gradient (end X)"
     },
     {
       "name": "fillRadialGradientEndPointY",
@@ -763,7 +763,7 @@
       },
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "background: radial-gradient (end Y)"
     },
     {
       "name": "fillRadialGradientStartRadius",
@@ -779,7 +779,7 @@
       },
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "background: radial-gradient (start radius)"
     },
     {
       "name": "fillRadialGradientEndRadius",
@@ -795,7 +795,7 @@
       },
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "background: radial-gradient (end radius)"
     },
     {
       "name": "fillRadialGradientColorStops",
@@ -809,7 +809,7 @@
       "constraints": null,
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "background: radial-gradient (color stops)"
     },
     {
       "name": "fillEnabled",
@@ -837,7 +837,7 @@
       "constraints": null,
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "background (priority: color/gradient/pattern)"
     },
     {
       "name": "fillRule",
@@ -851,7 +851,7 @@
       "constraints": null,
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "clip-rule"
     },
     {
       "name": "stroke",
@@ -965,7 +965,7 @@
       "constraints": null,
       "css": "stroke-linejoin",
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "border-line-join / stroke-linejoin"
     },
     {
       "name": "lineCap",
@@ -979,7 +979,7 @@
       "constraints": null,
       "css": "stroke-linecap",
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "border-line-cap / stroke-linecap"
     },
     {
       "name": "miterLimit",
@@ -995,7 +995,7 @@
       },
       "css": null,
       "cat": "behavior",
-      "cssEquivalent": ""
+      "cssEquivalent": "stroke-miterlimit"
     },
     {
       "name": "sceneFunc",
@@ -1067,7 +1067,7 @@
       "constraints": null,
       "css": "box-shadow-offset",
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "box-shadow offset"
     },
     {
       "name": "shadowOffsetX",
@@ -1083,7 +1083,7 @@
       },
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "box-shadow (offset X)"
     },
     {
       "name": "shadowOffsetY",
@@ -1099,7 +1099,7 @@
       },
       "css": null,
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "box-shadow (offset Y)"
     },
     {
       "name": "shadowOpacity",
@@ -1115,7 +1115,7 @@
       },
       "css": "box-shadow-opacity",
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "box-shadow (opacity)"
     },
     {
       "name": "shadowEnabled",
@@ -1157,7 +1157,7 @@
       "constraints": null,
       "css": "stroke-dasharray",
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "border-style: dashed"
     },
     {
       "name": "dashOffset",
@@ -1173,7 +1173,7 @@
       },
       "css": "stroke-dashoffset",
       "cat": "visual",
-      "cssEquivalent": ""
+      "cssEquivalent": "border-style (dash offset)"
     },
     {
       "name": "dashEnabled",
@@ -1245,7 +1245,7 @@
       },
       "css": null,
       "cat": "behavior",
-      "cssEquivalent": ""
+      "cssEquivalent": "clip-path (X start)"
     },
     {
       "name": "clipY",
@@ -1261,7 +1261,7 @@
       },
       "css": null,
       "cat": "behavior",
-      "cssEquivalent": ""
+      "cssEquivalent": "clip-path (Y start)"
     },
     {
       "name": "clipWidth",
@@ -1277,7 +1277,7 @@
       },
       "css": null,
       "cat": "content",
-      "cssEquivalent": ""
+      "cssEquivalent": "clip-path (width)"
     },
     {
       "name": "clipHeight",
@@ -1293,7 +1293,7 @@
       },
       "css": null,
       "cat": "behavior",
-      "cssEquivalent": ""
+      "cssEquivalent": "clip-path (height)"
     },
     {
       "name": "innerRadius",
